@@ -1,0 +1,1487 @@
+EESchema Schematic File Version 3
+LIBS:appli_analog_devices
+LIBS:appli_atmel
+LIBS:appli_battery
+LIBS:appli_capacitor
+LIBS:appli_connector
+LIBS:appli_connector_molex
+LIBS:appli_connector_jst
+LIBS:appli_crystal
+LIBS:appli_device
+LIBS:appli_fiducial
+LIBS:appli_ftdi
+LIBS:appli_fuse
+LIBS:appli_inductor
+LIBS:appli_linear
+LIBS:appli_link
+LIBS:appli_logo
+LIBS:appli_memory
+LIBS:appli_mount
+LIBS:appli_opto
+LIBS:appli_power
+LIBS:appli_regulator
+LIBS:appli_relay
+LIBS:appli_resistor
+LIBS:appli_special
+LIBS:appli_spice
+LIBS:appli_stm32
+LIBS:appli_switch
+LIBS:appli_tag_connect
+LIBS:appli_template
+LIBS:appli_test_points
+LIBS:appli_transformer
+LIBS:appli_transistor
+LIBS:appli_ublox
+LIBS:appli_uC
+LIBS:appli_usb
+LIBS:appli_wireless
+LIBS:clearpath-sc-single-channel-cache
+EELAYER 26 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title "Single Channel Clearpath SC IO Board"
+Date "2017-09-24"
+Rev "1.0"
+Comp "Scott Rapson"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L USB_MICRO_B_SMD_2 J??
+U 1 1 59C794D2
+P 1750 5300
+F 0 "J??" H 1969 5378 60  0000 L CNN
+F 1 "USB_MICRO_B_SMD_2" H 1969 5272 60  0000 L CNN
+F 2 "Applidyne_USB:MOLEX_47346-0001" H 1969 5219 60  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2214755.pdf" H 1750 4820 60  0001 C CNN
+F 4 "Molex" H 1750 4600 60  0001 C CNN "manf"
+F 5 "47346-0001" H 1750 4490 60  0001 C CNN "manf#"
+F 6 "Element 14" H 1750 4380 60  0001 C CNN "Supplier"
+F 7 "1568026" H 1760 4290 60  0001 C CNN "Supplier Part No"
+F 8 "http://au.element14.com/molex/47346-0001/micro-usb-2-0-type-b-receptacle/dp/1568026" H 1750 4190 60  0001 C CNN "Supplier URL"
+F 9 "1.5" H 1750 4080 60  0001 C CNN "Supplier Price"
+F 10 "10" H 1750 3960 60  0001 C CNN "Supplier Price Break"
+	1    1750 5300
+	-1   0    0    -1  
+$EndComp
+Text Notes 2150 4350 0    118  ~ 24
+USB Input & Protection
+Text Notes 13850 2450 0    118  ~ 24
+Clearpath IO \nConnection
+Text Notes 6200 6750 0    118  ~ 24
+IO Inputs
+Text Notes 6050 7100 0    60   ~ 0
+4-pin MiniFit Jr per each channel\n26-01-3115
+Text Notes 2300 1200 0    118  ~ 24
+Power Input & Regulation
+Text Notes 1600 1650 0    60   ~ 0
+2-pin MiniFit Jr\n26-01-3114
+$Comp
+L MOLEX_MICROFIT_JR_RH_2x1_WAY P?
+U 1 1 59C7C60D
+P 2000 1950
+F 0 "P?" H 2078 1980 50  0000 L CNN
+F 1 "MOLEX_MICROFIT_JR_RH_2x1_WAY" H 2078 1900 35  0000 L CNN
+F 2 "" V 2115 1950 20  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/276/050362457_sd-590412.pdf" V 2140 1950 20  0001 C CNN
+F 4 "MOLEX" V 2190 1950 20  0001 C CNN "manf"
+F 5 "50-36-2457" V 2215 1950 20  0001 C CNN "manf#"
+F 6 "Mouser" V 2240 1950 20  0001 C CNN "Supplier"
+F 7 "538-50-36-2457" V 2265 1950 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.mouser.com/ProductDetail/Molex/50-36-2457/" V 2290 1950 20  0001 C CNN "Supplier URL"
+F 9 "0.8" V 2315 1950 20  0001 C CNN "Supplier Price"
+F 10 "1" V 2340 1950 20  0001 C CNN "Supplier Price Break"
+	1    2000 1950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MOLEX_MICROFIT_JR_RH_2x2_WAY P?
+U 1 1 59C7CAA4
+P 6450 7800
+F 0 "P?" H 6528 7830 50  0000 L CNN
+F 1 "MOLEX_MICROFIT_JR_RH_2x2_WAY" H 6528 7750 35  0000 L CNN
+F 2 "" V 6625 7800 20  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/276/0026013115_PCB_HEADERS-227840.pdf" V 6650 7800 20  0001 C CNN
+F 4 "MOLEX" V 6700 7800 20  0001 C CNN "manf"
+F 5 "26-01-3115" V 6725 7800 20  0001 C CNN "manf#"
+F 6 "Mouser" V 6750 7800 20  0001 C CNN "Supplier"
+F 7 "538-26-01-3115" V 6775 7800 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.mouser.com/ProductDetail/Molex/26-01-3115/?qs=%2fha2pyFadugDpYK%2fBAu8EnNIIw97Z567UxXxDgiBIzo%3d" V 6800 7800 20  0001 C CNN "Supplier URL"
+F 9 "1.47" V 6825 7800 20  0001 C CNN "Supplier Price"
+F 10 "1" V 6850 7800 20  0001 C CNN "Supplier Price Break"
+	1    6450 7800
+	-1   0    0    -1  
+$EndComp
+Text Notes 14050 2850 0    60   ~ 0
+8-pin MiniFit Jr\n26-01-3144
+Text Notes 12750 8650 0    118  ~ 24
+Mounts and Misc
+Text Notes 8950 1300 0    118  ~ 24
+Hardened & Filtered Serial Connection
+Text Notes 8400 6750 0    118  ~ 24
+Aux IO State Indication
+$Comp
+L MOLEX_MICROFIT_JR_RH_2x4_WAY P?
+U 1 1 59C7F750
+P 14700 3450
+F 0 "P?" H 14777 3480 50  0000 L CNN
+F 1 "MOLEX_MICROFIT_JR_RH_2x4_WAY" H 14777 3400 35  0000 L CNN
+F 2 "" V 14875 3450 20  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/276/1724480008_PCB_HEADERS-704285.pdf" V 14900 3450 20  0001 C CNN
+F 4 "MOLEX" V 14950 3450 20  0001 C CNN "manf"
+F 5 "172448-0008" V 14975 3450 20  0001 C CNN "manf#"
+F 6 "Mouser" V 15000 3450 20  0001 C CNN "Supplier"
+F 7 "538-172448-0008" V 15025 3450 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.mouser.com/ProductDetail/Molex/172448-0008/?qs=sGAEpiMZZMu58sUZeT0Q%2fmcYSNk2See2tTuPV1HDGjI%3d" V 15050 3450 20  0001 C CNN "Supplier URL"
+F 9 "1.998" V 15075 3450 20  0001 C CNN "Supplier Price"
+F 10 "1" V 15100 3450 20  0001 C CNN "Supplier Price Break"
+	1    14700 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHOKE_6500uH_300mA_0.3-2MHz FB?
+U 1 1 59C8313E
+P 11700 4850
+F 0 "FB?" V 12000 4850 55  0000 C CNN
+F 1 "CHOKE_6500uH_300mA_0.3-2MHz" V 11900 4500 35  0000 C CNN
+F 2 "" V 11965 4850 20  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/54/SRF0905-32579.pdf" V 11990 4850 20  0001 C CNN
+F 4 "BOURNS" V 12040 4850 20  0001 C CNN "manf"
+F 5 "SRF0905-652Y" V 12065 4850 20  0001 C CNN "manf#"
+F 6 "Mouser" V 12090 4850 20  0001 C CNN "Supplier"
+F 7 "652-SRF0905-652Y" V 12115 4850 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.mouser.com/ProductDetail/Bourns/SRF0905-652Y/?qs=stOsxiBwuZWN3ZXLreHhzg%3D%3D" V 12140 4850 20  0001 C CNN "Supplier URL"
+F 9 "1.55" V 12165 4850 20  0001 C CNN "Supplier Price"
+F 10 "1" V 12190 4850 20  0001 C CNN "Supplier Price Break"
+	1    11700 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MMBT5401 Q?
+U 1 1 59C8360C
+P 9650 3950
+F 0 "Q?" H 9846 3912 40  0000 L CNN
+F 1 "MMBT5401" H 9846 3988 40  0000 L CNN
+F 2 "SOT95P240X110-3L16*" H 9575 4050 29  0001 R CNN
+F 3 "http://www.mouser.com/ds/2/308/MMBT5401-1121136.pdf" V 9875 3950 20  0001 C CNN
+F 4 "ON SEMI" V 9925 3950 20  0001 C CNN "manf"
+F 5 "MMBT5401" V 9950 3950 20  0001 C CNN "manf#"
+F 6 "Mouser" V 9975 3950 20  0001 C CNN "Supplier"
+F 7 "512-MMBT5401" V 10000 3950 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.mouser.com/ProductDetail/Fairchild-Semiconductor/MMBT5401/?qs=UMEuL5FsraBsdYafUfvRdA%3D%3D" V 10025 3950 20  0001 C CNN "Supplier URL"
+F 9 "0.243" V 10050 3950 20  0001 C CNN "Supplier Price"
+F 10 "10" V 10075 3950 20  0001 C CNN "Supplier Price Break"
+	1    9650 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L MMBTA06 Q?
+U 1 1 59C83864
+P 10150 4400
+F 0 "Q?" H 10345 4438 40  0000 L CNN
+F 1 "MMBTA06" H 10345 4362 40  0000 L CNN
+F 2 "SOT95P240X110-3L16*" H 10075 4500 29  0001 R CNN
+F 3 "http://www.mouser.com/ds/2/308/MMBTA06-1121073.pdf" V 10375 4400 20  0001 C CNN
+F 4 "ON SEMI" V 10425 4400 20  0001 C CNN "manf"
+F 5 "MMBTA06" V 10450 4400 20  0001 C CNN "manf#"
+F 6 "Mouser" V 10475 4400 20  0001 C CNN "Supplier"
+F 7 "512-MMBTA06" V 10500 4400 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.mouser.com/Search/ProductDetail.aspx?qs=UMEuL5FsraDNITJVR5yrvg%3D%3D" V 10525 4400 20  0001 C CNN "Supplier URL"
+F 9 "0.34" V 10550 4400 20  0001 C CNN "Supplier Price"
+F 10 "10" V 10575 4400 20  0001 C CNN "Supplier Price Break"
+	1    10150 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 59C839D2
+P 9850 4300
+F 0 "#PWR?" H 9850 4150 50  0001 C CNN
+F 1 "+5V" H 9865 4473 50  0000 C CNN
+F 2 "" H 9850 4300 60  0000 C CNN
+F 3 "" H 9850 4300 60  0000 C CNN
+	1    9850 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1K00_1608M R?
+U 1 1 59C83C80
+P 9350 4400
+F 0 "R?" V 9162 4250 50  0000 C CNN
+F 1 "1K00_1608M" V 9242 4250 35  0000 C CNN
+F 2 "RESC1608*" V 9460 4250 20  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1723233.pdf" V 9485 4250 20  0001 C CNN
+F 4 "MULTICOMP" V 9535 4250 20  0001 C CNN "manf"
+F 5 "MCHP03W8F1001T5E" V 9560 4250 20  0001 C CNN "manf#"
+F 6 "Element14" V 9585 4250 20  0001 C CNN "Supplier"
+F 7 "1576283" V 9610 4250 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.element14.com/multicomp/mchp03w8f1001t5e/resistor-thick-film-1k-0-125w/dp/1576283" V 9635 4250 20  0001 C CNN "Supplier URL"
+F 9 "0.011" V 9660 4250 20  0001 C CNN "Supplier Price"
+F 10 "50+" V 9685 4250 20  0001 C CNN "Supplier Price Break"
+	1    9350 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L 93K1_1608M R?
+U 1 1 59C83ED6
+P 10250 3450
+F 0 "R?" H 10323 3335 50  0000 L CNN
+F 1 "93K1_1608M" H 10323 3255 35  0000 L CNN
+F 2 "Applidyne_Resistor:RESC1608X50N" V 10360 3300 20  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2046716.pdf" V 10385 3300 20  0001 C CNN
+F 4 "VISHAY" V 10435 3300 20  0001 C CNN "manf"
+F 5 "CRCW060393K1FKEA" V 10460 3300 20  0001 C CNN "manf#"
+F 6 "Element14" V 10485 3300 20  0001 C CNN "Supplier"
+F 7 "1152169" V 10510 3300 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.element14.com/vishay/crcw060393k1fkea/res-thick-film-93k1-1-0-1w-0603/dp/1152169" V 10535 3300 20  0001 C CNN "Supplier URL"
+F 9 "0.085" V 10560 3300 20  0001 C CNN "Supplier Price"
+F 10 "10" V 10585 3300 20  0001 C CNN "Supplier Price Break"
+	1    10250 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR?
+U 1 1 59C84038
+P 9900 3350
+F 0 "#PWR?" H 9900 3200 50  0001 C CNN
+F 1 "+12V" H 9915 3523 50  0000 C CNN
+F 2 "" H 9900 3350 60  0000 C CNN
+F 3 "" H 9900 3350 60  0000 C CNN
+	1    9900 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4K7_1608M R?
+U 1 1 59C842F9
+P 9550 4700
+F 0 "R?" H 9623 4585 50  0000 L CNN
+F 1 "4K7_1608M" H 9623 4505 35  0000 L CNN
+F 2 "RESC1608*" V 9660 4550 20  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1788326.pdf" V 9685 4550 20  0001 C CNN
+F 4 "MULTICOMP" V 9735 4550 20  0001 C CNN "manf"
+F 5 "MC0063W060354K7" V 9760 4550 20  0001 C CNN "manf#"
+F 6 "Element14" V 9785 4550 20  0001 C CNN "Supplier"
+F 7 "9332154" V 9810 4550 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.element14.com/multicomp/mc0063w060354k7/res-thick-film-4k7-5-0-063w-0603/dp/9332154" V 9835 4550 20  0001 C CNN "Supplier URL"
+F 9 "0.024" V 9860 4550 20  0001 C CNN "Supplier Price"
+F 10 "1" V 9885 4550 20  0001 C CNN "Supplier Price Break"
+	1    9550 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 33NF_X7R_1608M C?
+U 1 1 59C84553
+P 10250 4750
+F 0 "C?" H 10328 4685 50  0000 L CNN
+F 1 "33NF_X7R_1608M" H 10328 4605 35  0000 L CNN
+F 2 "CAPC1608*" V 10365 4650 20  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1633156.pdf" V 10390 4650 20  0001 C CNN
+F 4 "KEMET" V 10440 4650 20  0001 C CNN "manf"
+F 5 "C0603C333K5RACAUTO" V 10465 4650 20  0001 C CNN "manf#"
+F 6 "Element14" V 10490 4650 20  0001 C CNN "Supplier"
+F 7 "2070421" V 10515 4650 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.element14.com/kemet/c0603c333k5racauto/cap-mlcc-x7r-33nf-50v-0603/dp/2070421" V 10540 4650 20  0001 C CNN "Supplier URL"
+F 9 "0.311" V 10565 4650 20  0001 C CNN "Supplier Price"
+F 10 "10" V 10590 4650 20  0001 C CNN "Supplier Price Break"
+	1    10250 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 560R_1608M R?
+U 1 1 59C84A04
+P 10950 4700
+F 0 "R?" H 11023 4585 50  0000 L CNN
+F 1 "560R_1608M" H 11023 4505 35  0000 L CNN
+F 2 "RESC1608*" V 11060 4550 20  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1280654.pdf" V 11085 4550 20  0001 C CNN
+F 4 "MULTICOMP" V 11135 4550 20  0001 C CNN "manf"
+F 5 "MC0201L6F5600SE" V 11160 4550 20  0001 C CNN "manf#"
+F 6 "Element14" V 11185 4550 20  0001 C CNN "Supplier"
+F 7 "1838056" V 11210 4550 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.element14.com/multicomp/mc0201l6f5600se/res-thick-film-560r-1-0-05w-0201/dp/1838056" V 11235 4550 20  0001 C CNN "Supplier URL"
+F 9 "0.003" V 11260 4550 20  0001 C CNN "Supplier Price"
+F 10 "1" V 11285 4550 20  0001 C CNN "Supplier Price Break"
+	1    10950 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 100NF_X7R_1608M C?
+U 1 1 59C84CF3
+P 10850 3500
+F 0 "C?" H 10928 3435 50  0000 L CNN
+F 1 "100NF_X7R_1608M" H 10928 3355 35  0000 L CNN
+F 2 "CAPC1608*" V 10965 3400 20  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1732728.pdf" V 10990 3400 20  0001 C CNN
+F 4 "KEMET" V 11040 3400 20  0001 C CNN "manf"
+F 5 "C0603C104K5RACAUTO" V 11065 3400 20  0001 C CNN "manf#"
+F 6 "Element14" V 11090 3400 20  0001 C CNN "Supplier"
+F 7 "2070398" V 11115 3400 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.element14.com/kemet/c0603c104k5racauto/cap-mlcc-x7r-100nf-50v-0603/dp/2070398" V 11140 3400 20  0001 C CNN "Supplier URL"
+F 9 "0.011" V 11165 3400 20  0001 C CNN "Supplier Price"
+F 10 "1" V 11190 3400 20  0001 C CNN "Supplier Price Break"
+	1    10850 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59C84DD6
+P 10850 3900
+F 0 "#PWR?" H 10850 3650 50  0001 C CNN
+F 1 "GND" H 10855 3727 50  0000 C CNN
+F 2 "" H 10850 3900 60  0000 C CNN
+F 3 "" H 10850 3900 60  0000 C CNN
+	1    10850 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 62R_1608M R?
+U 1 1 59C850CD
+P 11700 2400
+F 0 "R?" V 11512 2250 50  0000 C CNN
+F 1 "62R_1608M" V 11592 2250 35  0000 C CNN
+F 2 "RESC1608*" V 11810 2250 20  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2140393.pdf" V 11835 2250 20  0001 C CNN
+F 4 "MULTICOMP" V 11885 2250 20  0001 C CNN "manf"
+F 5 "MC00625W0402162R" V 11910 2250 20  0001 C CNN "manf#"
+F 6 "Element14" V 11935 2250 20  0001 C CNN "Supplier"
+F 7 "1358010" V 11960 2250 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.element14.com/multicomp/mc00625w0402162r/res-thick-film-62r-1-0-0625w-0402/dp/1358010" V 11985 2250 20  0001 C CNN "Supplier URL"
+F 9 "0.008" V 12010 2250 20  0001 C CNN "Supplier Price"
+F 10 "50" V 12035 2250 20  0001 C CNN "Supplier Price Break"
+	1    11700 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L 62R_1608M R?
+U 1 1 59C854DE
+P 11700 2000
+F 0 "R?" V 11512 1850 50  0000 C CNN
+F 1 "62R_1608M" V 11592 1850 35  0000 C CNN
+F 2 "RESC1608*" V 11810 1850 20  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2140393.pdf" V 11835 1850 20  0001 C CNN
+F 4 "MULTICOMP" V 11885 1850 20  0001 C CNN "manf"
+F 5 "MC00625W0402162R" V 11910 1850 20  0001 C CNN "manf#"
+F 6 "Element14" V 11935 1850 20  0001 C CNN "Supplier"
+F 7 "1358010" V 11960 1850 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.element14.com/multicomp/mc00625w0402162r/res-thick-film-62r-1-0-0625w-0402/dp/1358010" V 11985 1850 20  0001 C CNN "Supplier URL"
+F 9 "0.008" V 12010 1850 20  0001 C CNN "Supplier Price"
+F 10 "50" V 12035 1850 20  0001 C CNN "Supplier Price Break"
+	1    11700 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59C85547
+P 11250 2550
+F 0 "#PWR?" H 11250 2300 50  0001 C CNN
+F 1 "GND" H 11255 2377 50  0000 C CNN
+F 2 "" H 11250 2550 60  0000 C CNN
+F 3 "" H 11250 2550 60  0000 C CNN
+	1    11250 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 59C855A0
+P 10100 1750
+F 0 "#PWR?" H 10100 1600 50  0001 C CNN
+F 1 "+5V" H 10115 1923 50  0000 C CNN
+F 2 "" H 10100 1750 60  0000 C CNN
+F 3 "" H 10100 1750 60  0000 C CNN
+	1    10100 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59C8560E
+P 9950 5150
+F 0 "#PWR?" H 9950 4900 50  0001 C CNN
+F 1 "GND" H 9955 4977 50  0000 C CNN
+F 2 "" H 9950 5150 60  0000 C CNN
+F 3 "" H 9950 5150 60  0000 C CNN
+	1    9950 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED_GREEN_1608M D?
+U 1 1 59C859F1
+P 15000 7050
+F 0 "D?" V 15046 6942 50  0000 R CNN
+F 1 "LED_GREEN_1608M" V 14955 6942 50  0000 R CNN
+F 2 "" H 14900 7050 50  0000 C CNN
+F 3 "http://www.farnell.com/datasheets/1720200.pdf" H 15000 6840 50  0001 C CNN
+F 4 "DIALIGHT" H 15000 6630 60  0001 C CNN "manf"
+F 5 "5988070107F" H 15000 6540 60  0001 C CNN "manf#"
+F 6 "Element 14" H 15000 6440 60  0001 C CNN "Supplier"
+F 7 "1465991" H 15000 6340 60  0001 C CNN "Supplier Part No"
+F 8 "http://au.element14.com/dialight/5988070107f/led-0603-green-20mcd-566nm/dp/1465991" H 15010 6260 60  0001 C CNN "Supplier URL"
+F 9 "0.4" H 15000 6160 60  0001 C CNN "Supplier Price"
+F 10 "10" H 15000 6060 60  0001 C CNN "Supplier Price Break"
+	1    15000 7050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 59C85B48
+P 15000 6800
+F 0 "#PWR?" H 15000 6650 50  0001 C CNN
+F 1 "+5V" H 15015 6973 50  0000 C CNN
+F 2 "" H 15000 6800 60  0000 C CNN
+F 3 "" H 15000 6800 60  0000 C CNN
+	1    15000 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 390R_1608M R?
+U 1 1 59C85F4F
+P 14850 7450
+F 0 "R?" V 14662 7300 50  0000 C CNN
+F 1 "390R_1608M" V 14742 7300 35  0000 C CNN
+F 2 "RESC1608*" V 14960 7300 20  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1788326.pdf" V 14985 7300 20  0001 C CNN
+F 4 "MULTICOMP" V 15035 7300 20  0001 C CNN "manf"
+F 5 "MC0063W06031390R" V 15060 7300 20  0001 C CNN "manf#"
+F 6 "Element14" V 15085 7300 20  0001 C CNN "Supplier"
+F 7 "9331131" V 15110 7300 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.element14.com/multicomp/mc0063w06031390r/resistor-390r-0-063w-1-0603/dp/9331131" V 15135 7300 20  0001 C CNN "Supplier URL"
+F 9 "0.00141" V 15160 7300 20  0001 C CNN "Supplier Price"
+F 10 "1" V 15185 7300 20  0001 C CNN "Supplier Price Break"
+	1    14850 7450
+	0    1    1    0   
+$EndComp
+$Comp
+L 100NF_X7R_1608M C?
+U 1 1 59C86227
+P 13600 7550
+F 0 "C?" H 13677 7485 50  0000 L CNN
+F 1 "100NF_X7R_1608M" H 13677 7405 35  0000 L CNN
+F 2 "CAPC1608*" V 13715 7450 20  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1732728.pdf" V 13740 7450 20  0001 C CNN
+F 4 "KEMET" V 13790 7450 20  0001 C CNN "manf"
+F 5 "C0603C104K5RACAUTO" V 13815 7450 20  0001 C CNN "manf#"
+F 6 "Element14" V 13840 7450 20  0001 C CNN "Supplier"
+F 7 "2070398" V 13865 7450 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.element14.com/kemet/c0603c104k5racauto/cap-mlcc-x7r-100nf-50v-0603/dp/2070398" V 13890 7450 20  0001 C CNN "Supplier URL"
+F 9 "0.011" V 13915 7450 20  0001 C CNN "Supplier Price"
+F 10 "1" V 13940 7450 20  0001 C CNN "Supplier Price Break"
+	1    13600 7550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59C8630D
+P 13600 7800
+F 0 "#PWR?" H 13600 7550 50  0001 C CNN
+F 1 "GND" H 13605 7627 50  0000 C CNN
+F 2 "" H 13600 7800 60  0000 C CNN
+F 3 "" H 13600 7800 60  0000 C CNN
+	1    13600 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L BAS21_SOT23 D?
+U 1 1 59C866B0
+P 13250 7200
+F 0 "D?" H 13250 6995 50  0000 C CNN
+F 1 "BAS21_SOT23" H 13250 7086 50  0000 C CNN
+F 2 "SOT95P240X110-3L16*" H 13250 7050 20  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/308/BAS21-1118533.pdf" H 13250 7025 20  0001 C CNN
+F 4 "ON SEMICONDUCTOR" H 13250 6975 20  0001 C CNN "manf"
+F 5 "BAS21" H 13250 6950 20  0001 C CNN "manf#"
+F 6 "Mouser" H 13250 6925 20  0001 C CNN "Supplier"
+F 7 "512-BAS21" H 13250 6900 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.mouser.com/Search/ProductDetail.aspx?qs=GXJjH%252bIVz3MgJ%252bf2%252bjymzQ%3D%3D" H 13250 6875 20  0001 C CNN "Supplier URL"
+F 9 "0.228" H 13250 6850 20  0001 C CNN "Supplier Price"
+F 10 "10" H 13250 6825 20  0001 C CNN "Supplier Price Break"
+	1    13250 7200
+	-1   0    0    1   
+$EndComp
+Text Notes 13100 7500 0    60   ~ 0
+470k
+Text Notes 12650 6600 0    118  ~ 24
+Serial Status LED
+$Comp
+L SN74HC14PWR U?
+U 1 1 59C88C67
+P 10100 2000
+F 0 "U?" H 10450 2200 50  0000 L CNN
+F 1 "SN74HC14PWR" H 10450 2100 50  0000 L CNN
+F 2 "Applidyne_SOP:SOP14P65_500X640X120L62X24N" H 10100 1640 20  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc14" H 10100 1615 20  0001 C CNN
+F 4 "TI" H 10100 1565 20  0001 C CNN "manf"
+F 5 "SN74HC14PWR" H 10100 1540 20  0001 C CNN "manf#"
+F 6 "Mouser" H 10100 1515 20  0001 C CNN "Supplier"
+F 7 "595-SN74HC14PWR" H 10100 1490 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.mouser.com/ProductDetail/Texas-Instruments/SN74HC14PWR/?qs=sGAEpiMZZMutVWjHE%2fYQw9XSWsf7N%2fuyBxLji%2fG2WzM%3d" H 10100 1465 20  0001 C CNN "Supplier URL"
+F 9 "0.456" H 10100 1440 20  0001 C CNN "Supplier Price"
+F 10 "10" H 10100 1415 20  0001 C CNN "Supplier Price Break"
+	1    10100 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SN74HC14PWR U?
+U 2 1 59C88EF8
+P 10500 2600
+F 0 "U?" H 10100 2500 50  0000 L CNN
+F 1 "SN74HC14PWR" H 9700 2400 50  0000 L CNN
+F 2 "Applidyne_SOP:SOP14P65_500X640X120L62X24N" H 10500 2240 20  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc14" H 10500 2215 20  0001 C CNN
+F 4 "TI" H 10500 2165 20  0001 C CNN "manf"
+F 5 "SN74HC14PWR" H 10500 2140 20  0001 C CNN "manf#"
+F 6 "Mouser" H 10500 2115 20  0001 C CNN "Supplier"
+F 7 "595-SN74HC14PWR" H 10500 2090 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.mouser.com/ProductDetail/Texas-Instruments/SN74HC14PWR/?qs=sGAEpiMZZMutVWjHE%2fYQw9XSWsf7N%2fuyBxLji%2fG2WzM%3d" H 10500 2065 20  0001 C CNN "Supplier URL"
+F 9 "0.456" H 10500 2040 20  0001 C CNN "Supplier Price"
+F 10 "10" H 10500 2015 20  0001 C CNN "Supplier Price Break"
+	2    10500 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59C8A209
+P 10100 2250
+F 0 "#PWR?" H 10100 2000 50  0001 C CNN
+F 1 "GND" H 10105 2077 50  0000 C CNN
+F 2 "" H 10100 2250 60  0000 C CNN
+F 3 "" H 10100 2250 60  0000 C CNN
+	1    10100 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 59C8A26F
+P 10500 2350
+F 0 "#PWR?" H 10500 2200 50  0001 C CNN
+F 1 "+5V" H 10515 2523 50  0000 C CNN
+F 2 "" H 10500 2350 60  0000 C CNN
+F 3 "" H 10500 2350 60  0000 C CNN
+	1    10500 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59C8A2A6
+P 10500 2850
+F 0 "#PWR?" H 10500 2600 50  0001 C CNN
+F 1 "GND" H 10505 2677 50  0000 C CNN
+F 2 "" H 10500 2850 60  0000 C CNN
+F 3 "" H 10500 2850 60  0000 C CNN
+	1    10500 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SN74HC14PWR U?
+U 3 1 59C8ACB0
+P 8600 4700
+F 0 "U?" V 8604 4941 50  0000 L CNN
+F 1 "SN74HC14PWR" V 8695 4941 50  0000 L CNN
+F 2 "Applidyne_SOP:SOP14P65_500X640X120L62X24N" H 8600 4340 20  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc14" H 8600 4315 20  0001 C CNN
+F 4 "TI" H 8600 4265 20  0001 C CNN "manf"
+F 5 "SN74HC14PWR" H 8600 4240 20  0001 C CNN "manf#"
+F 6 "Mouser" H 8600 4215 20  0001 C CNN "Supplier"
+F 7 "595-SN74HC14PWR" H 8600 4190 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.mouser.com/ProductDetail/Texas-Instruments/SN74HC14PWR/?qs=sGAEpiMZZMutVWjHE%2fYQw9XSWsf7N%2fuyBxLji%2fG2WzM%3d" H 8600 4165 20  0001 C CNN "Supplier URL"
+F 9 "0.456" H 8600 4140 20  0001 C CNN "Supplier Price"
+F 10 "10" H 8600 4115 20  0001 C CNN "Supplier Price Break"
+	3    8600 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L SN74HC14PWR U?
+U 4 1 59C8ADBA
+P 8600 5400
+F 0 "U?" V 8604 5641 50  0000 L CNN
+F 1 "SN74HC14PWR" V 8695 5641 50  0000 L CNN
+F 2 "Applidyne_SOP:SOP14P65_500X640X120L62X24N" H 8600 5040 20  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc14" H 8600 5015 20  0001 C CNN
+F 4 "TI" H 8600 4965 20  0001 C CNN "manf"
+F 5 "SN74HC14PWR" H 8600 4940 20  0001 C CNN "manf#"
+F 6 "Mouser" H 8600 4915 20  0001 C CNN "Supplier"
+F 7 "595-SN74HC14PWR" H 8600 4890 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.mouser.com/ProductDetail/Texas-Instruments/SN74HC14PWR/?qs=sGAEpiMZZMutVWjHE%2fYQw9XSWsf7N%2fuyBxLji%2fG2WzM%3d" H 8600 4865 20  0001 C CNN "Supplier URL"
+F 9 "0.456" H 8600 4840 20  0001 C CNN "Supplier Price"
+F 10 "10" H 8600 4815 20  0001 C CNN "Supplier Price Break"
+	4    8600 5400
+	0    1    1    0   
+$EndComp
+$Comp
+L SN74HC14PWR U?
+U 5 1 59C8AF5F
+P 12250 7450
+F 0 "U?" H 12400 7250 50  0000 L CNN
+F 1 "SN74HC14PWR" H 12400 7150 50  0000 L CNN
+F 2 "Applidyne_SOP:SOP14P65_500X640X120L62X24N" H 12250 7090 20  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc14" H 12250 7065 20  0001 C CNN
+F 4 "TI" H 12250 7015 20  0001 C CNN "manf"
+F 5 "SN74HC14PWR" H 12250 6990 20  0001 C CNN "manf#"
+F 6 "Mouser" H 12250 6965 20  0001 C CNN "Supplier"
+F 7 "595-SN74HC14PWR" H 12250 6940 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.mouser.com/ProductDetail/Texas-Instruments/SN74HC14PWR/?qs=sGAEpiMZZMutVWjHE%2fYQw9XSWsf7N%2fuyBxLji%2fG2WzM%3d" H 12250 6915 20  0001 C CNN "Supplier URL"
+F 9 "0.456" H 12250 6890 20  0001 C CNN "Supplier Price"
+F 10 "10" H 12250 6865 20  0001 C CNN "Supplier Price Break"
+	5    12250 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L SN74HC14PWR U?
+U 6 1 59C8B171
+P 14100 7450
+F 0 "U?" H 14300 7250 50  0000 L CNN
+F 1 "SN74HC14PWR" H 14300 7150 50  0000 L CNN
+F 2 "Applidyne_SOP:SOP14P65_500X640X120L62X24N" H 14100 7090 20  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc14" H 14100 7065 20  0001 C CNN
+F 4 "TI" H 14100 7015 20  0001 C CNN "manf"
+F 5 "SN74HC14PWR" H 14100 6990 20  0001 C CNN "manf#"
+F 6 "Mouser" H 14100 6965 20  0001 C CNN "Supplier"
+F 7 "595-SN74HC14PWR" H 14100 6940 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.mouser.com/ProductDetail/Texas-Instruments/SN74HC14PWR/?qs=sGAEpiMZZMutVWjHE%2fYQw9XSWsf7N%2fuyBxLji%2fG2WzM%3d" H 14100 6915 20  0001 C CNN "Supplier URL"
+F 9 "0.456" H 14100 6890 20  0001 C CNN "Supplier Price"
+F 10 "10" H 14100 6865 20  0001 C CNN "Supplier Price Break"
+	6    14100 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59C8DDB7
+P 14100 7800
+F 0 "#PWR?" H 14100 7550 50  0001 C CNN
+F 1 "GND" H 14105 7627 50  0000 C CNN
+F 2 "" H 14100 7800 60  0000 C CNN
+F 3 "" H 14100 7800 60  0000 C CNN
+	1    14100 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 59C8DEE3
+P 14100 7200
+F 0 "#PWR?" H 14100 7050 50  0001 C CNN
+F 1 "+5V" H 14115 7373 50  0000 C CNN
+F 2 "" H 14100 7200 60  0000 C CNN
+F 3 "" H 14100 7200 60  0000 C CNN
+	1    14100 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59C8E9DC
+P 12250 7800
+F 0 "#PWR?" H 12250 7550 50  0001 C CNN
+F 1 "GND" H 12255 7627 50  0000 C CNN
+F 2 "" H 12250 7800 60  0000 C CNN
+F 3 "" H 12250 7800 60  0000 C CNN
+	1    12250 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 59C8EA53
+P 12250 7200
+F 0 "#PWR?" H 12250 7050 50  0001 C CNN
+F 1 "+5V" H 12265 7373 50  0000 C CNN
+F 2 "" H 12250 7200 60  0000 C CNN
+F 3 "" H 12250 7200 60  0000 C CNN
+	1    12250 7200
+	1    0    0    -1  
+$EndComp
+Text GLabel 11850 7450 0    60   Input ~ 0
+SERIAL_TX
+Text GLabel 9350 2000 0    60   Input ~ 0
+SERIAL_TX
+Text GLabel 8550 5850 0    60   Input ~ 0
+SERIAL_RX
+$Comp
+L GND #PWR?
+U 1 1 59C90080
+P 8400 4750
+F 0 "#PWR?" H 8400 4500 50  0001 C CNN
+F 1 "GND" H 8405 4577 50  0000 C CNN
+F 2 "" H 8400 4750 60  0000 C CNN
+F 3 "" H 8400 4750 60  0000 C CNN
+	1    8400 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59C900BF
+P 8400 5450
+F 0 "#PWR?" H 8400 5200 50  0001 C CNN
+F 1 "GND" H 8405 5277 50  0000 C CNN
+F 2 "" H 8400 5450 60  0000 C CNN
+F 3 "" H 8400 5450 60  0000 C CNN
+	1    8400 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 59C903C2
+P 8800 4650
+F 0 "#PWR?" H 8800 4500 50  0001 C CNN
+F 1 "+5V" H 8815 4823 50  0000 C CNN
+F 2 "" H 8800 4650 60  0000 C CNN
+F 3 "" H 8800 4650 60  0000 C CNN
+	1    8800 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 59C90401
+P 8800 5350
+F 0 "#PWR?" H 8800 5200 50  0001 C CNN
+F 1 "+5V" H 8815 5523 50  0000 C CNN
+F 2 "" H 8800 5350 60  0000 C CNN
+F 3 "" H 8800 5350 60  0000 C CNN
+	1    8800 5350
+	1    0    0    -1  
+$EndComp
+Text Notes 9450 3600 0    60   ~ 0
+768R
+Text GLabel 11850 2000 2    60   Output ~ 0
+MOTOR_TX_A
+Text GLabel 11850 2400 2    60   Output ~ 0
+MOTOR_TX_B
+Text GLabel 12500 4750 2    60   Input ~ 0
+MOTOR_RX_A
+Text GLabel 12500 4950 2    60   Input ~ 0
+MOTOR_RX_B
+Text GLabel 14200 3400 0    60   Input ~ 0
+MOTOR_TX_A
+Text GLabel 14200 3800 0    60   Input ~ 0
+MOTOR_TX_B
+Text GLabel 14200 3500 0    60   Output ~ 0
+MOTOR_RX_A
+Text GLabel 14200 3100 0    60   Output ~ 0
+MOTOR_RX_B
+$Comp
+L MNT_M3_PLATED MNT?
+U 1 1 59C95D44
+P 11800 9100
+F 0 "MNT?" H 11953 9100 47  0000 L CNN
+F 1 "MNT_M3_PLATED" H 11953 9013 47  0000 L CNN
+F 2 "MTGP650H330" H 11800 9275 47  0001 C CNN
+F 3 "" H 11800 9100 60  0000 C CNN
+	1    11800 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MNT_M3_PLATED MNT?
+U 1 1 59C95F38
+P 12850 9100
+F 0 "MNT?" H 13003 9100 47  0000 L CNN
+F 1 "MNT_M3_PLATED" H 13003 9013 47  0000 L CNN
+F 2 "MTGP650H330" H 12850 9275 47  0001 C CNN
+F 3 "" H 12850 9100 60  0000 C CNN
+	1    12850 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MNT_M3_PLATED MNT?
+U 1 1 59C95FA4
+P 13900 9100
+F 0 "MNT?" H 14053 9100 47  0000 L CNN
+F 1 "MNT_M3_PLATED" H 14053 9013 47  0000 L CNN
+F 2 "MTGP650H330" H 13900 9275 47  0001 C CNN
+F 3 "" H 13900 9100 60  0000 C CNN
+	1    13900 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MNT_M3_PLATED MNT?
+U 1 1 59C96034
+P 14900 9100
+F 0 "MNT?" H 15053 9100 47  0000 L CNN
+F 1 "MNT_M3_PLATED" H 15053 9013 47  0000 L CNN
+F 2 "MTGP650H330" H 14900 9275 47  0001 C CNN
+F 3 "" H 14900 9100 60  0000 C CNN
+	1    14900 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59C960FA
+P 14900 9500
+F 0 "#PWR?" H 14900 9250 50  0001 C CNN
+F 1 "GND" H 14905 9327 50  0000 C CNN
+F 2 "" H 14900 9500 60  0000 C CNN
+F 3 "" H 14900 9500 60  0000 C CNN
+	1    14900 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59C96148
+P 13900 9500
+F 0 "#PWR?" H 13900 9250 50  0001 C CNN
+F 1 "GND" H 13905 9327 50  0000 C CNN
+F 2 "" H 13900 9500 60  0000 C CNN
+F 3 "" H 13900 9500 60  0000 C CNN
+	1    13900 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59C9618F
+P 12850 9500
+F 0 "#PWR?" H 12850 9250 50  0001 C CNN
+F 1 "GND" H 12855 9327 50  0000 C CNN
+F 2 "" H 12850 9500 60  0000 C CNN
+F 3 "" H 12850 9500 60  0000 C CNN
+	1    12850 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59C961D6
+P 11800 9500
+F 0 "#PWR?" H 11800 9250 50  0001 C CNN
+F 1 "GND" H 11805 9327 50  0000 C CNN
+F 2 "" H 11800 9500 60  0000 C CNN
+F 3 "" H 11800 9500 60  0000 C CNN
+	1    11800 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L USBLC6 U?
+U 1 1 59C98211
+P 4200 5200
+F 0 "U?" H 4200 5637 60  0000 C CNN
+F 1 "USBLC6" H 4200 5531 60  0000 C CNN
+F 2 "" H 4200 5200 60  0000 C CNN
+F 3 "http://docs-asia.electrocomponents.com/webdocs/07bd/0900766b807bd47e.pdf" H 4220 4850 60  0001 C CNN
+F 4 "ST" H 4200 4610 60  0001 C CNN "manf"
+F 5 "USBLC6-2SC6" H 4200 4510 60  0001 C CNN "manf#"
+F 6 "RS Online" H 4210 4400 60  0001 C CNN "Supplier"
+F 7 " 624-7693" H 4200 4300 60  0001 C CNN "Supplier Part No"
+F 8 "http://au.rs-online.com/web/p/tvs-diodes/6247693/" H 4200 4210 60  0001 C CNN "Supplier URL"
+F 9 "0.59" H 4200 4100 60  0001 C CNN "Supplier Price"
+F 10 "10" H 4200 4000 60  0001 C CNN "Supplier Price Break"
+	1    4200 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 500mA_1210L_PTC F?
+U 1 1 59C98ED3
+P 2550 5050
+F 0 "F?" V 2362 4900 50  0000 C CNN
+F 1 "500mA_1210L_PTC" V 2442 4900 35  0000 C CNN
+F 2 "Applidyne_Fuse:FUSC3225X85L50N" V 2660 4900 20  0001 C CNN
+F 3 "http://docs-asia.electrocomponents.com/webdocs/1420/0900766b8142082b.pdf" V 2685 4900 20  0001 C CNN
+F 4 "LittelFuse" V 2735 4900 20  0001 C CNN "manf"
+F 5 " 1210L050YR" V 2760 4900 20  0001 C CNN "manf#"
+F 6 "RS Online" V 2785 4900 20  0001 C CNN "Supplier"
+F 7 "787-4202" V 2810 4900 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.rs-online.com/web/p/resettable-surface-mount-fuses/7874202/" V 2835 4900 20  0001 C CNN "Supplier URL"
+F 9 "0.486" V 2860 4900 20  0001 C CNN "Supplier Price"
+F 10 "10" V 2885 4900 20  0001 C CNN "Supplier Price Break"
+	1    2550 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59C994EC
+P 2200 5700
+F 0 "#PWR?" H 2200 5450 50  0001 C CNN
+F 1 "GND" H 2205 5527 50  0000 C CNN
+F 2 "" H 2200 5700 60  0000 C CNN
+F 3 "" H 2200 5700 60  0000 C CNN
+	1    2200 5700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1950 5350
+$Comp
+L GND #PWR?
+U 1 1 59C99850
+P 3300 5550
+F 0 "#PWR?" H 3300 5300 50  0001 C CNN
+F 1 "GND" H 3305 5377 50  0000 C CNN
+F 2 "" H 3300 5550 60  0000 C CNN
+F 3 "" H 3300 5550 60  0000 C CNN
+	1    3300 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 59C99AF7
+P 2800 4900
+F 0 "#PWR?" H 2800 4750 50  0001 C CNN
+F 1 "+5V" H 2815 5073 50  0000 C CNN
+F 2 "" H 2800 4900 60  0000 C CNN
+F 3 "" H 2800 4900 60  0000 C CNN
+	1    2800 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 59C99DDC
+P 3350 4900
+F 0 "#PWR?" H 3350 4750 50  0001 C CNN
+F 1 "+5V" H 3365 5073 50  0000 C CNN
+F 2 "" H 3350 4900 60  0000 C CNN
+F 3 "" H 3350 4900 60  0000 C CNN
+	1    3350 4900
+	1    0    0    -1  
+$EndComp
+Text GLabel 5100 5250 2    60   BiDi ~ 0
+USB_D+
+Text GLabel 5100 5150 2    60   BiDi ~ 0
+USB_D-
+$Comp
+L PWR_FLAG #FLG?
+U 1 1 59C9A250
+P 3050 4900
+F 0 "#FLG?" H 3050 4950 30  0001 C CNN
+F 1 "PWR_FLAG" H 3050 5033 30  0000 C CNN
+F 2 "" H 3050 4900 60  0000 C CNN
+F 3 "" H 3050 4900 60  0000 C CNN
+	1    3050 4900
+	1    0    0    -1  
+$EndComp
+Text Notes 1650 6700 0    118  ~ 24
+USB / Serial Converter
+Text GLabel 14200 3300 0    60   Input ~ 0
+MOTOR_A+
+Text GLabel 14200 3700 0    60   Input ~ 0
+MOTOR_A-
+Text GLabel 14200 3200 0    60   Input ~ 0
+MOTOR_B+
+Text GLabel 14200 3600 0    60   Input ~ 0
+MOTOR_B-
+Text GLabel 10500 9450 2    60   Output ~ 0
+MOTOR_B-
+Text GLabel 10500 8050 2    60   Output ~ 0
+MOTOR_A-
+Text GLabel 10500 8950 2    60   Output ~ 0
+MOTOR_B+
+Text GLabel 10500 7550 2    60   Output ~ 0
+MOTOR_A+
+$Comp
+L LED_GREEN_1608M D?
+U 1 1 59C9E8D0
+P 9850 7850
+F 0 "D?" H 9850 8055 50  0000 C CNN
+F 1 "LED_GREEN_1608M" H 9850 7964 50  0000 C CNN
+F 2 "" H 9750 7850 50  0000 C CNN
+F 3 "http://www.farnell.com/datasheets/1720200.pdf" H 9850 7640 50  0001 C CNN
+F 4 "DIALIGHT" H 9850 7430 60  0001 C CNN "manf"
+F 5 "5988070107F" H 9850 7340 60  0001 C CNN "manf#"
+F 6 "Element 14" H 9850 7240 60  0001 C CNN "Supplier"
+F 7 "1465991" H 9850 7140 60  0001 C CNN "Supplier Part No"
+F 8 "http://au.element14.com/dialight/5988070107f/led-0603-green-20mcd-566nm/dp/1465991" H 9860 7060 60  0001 C CNN "Supplier URL"
+F 9 "0.4" H 9850 6960 60  0001 C CNN "Supplier Price"
+F 10 "10" H 9850 6860 60  0001 C CNN "Supplier Price Break"
+	1    9850 7850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11400 2400 11250 2400
+Wire Wire Line
+	11250 2400 11250 2550
+Wire Wire Line
+	10850 2600 11100 2600
+Wire Wire Line
+	11100 2600 11100 2000
+Wire Wire Line
+	10450 2000 11100 2000
+Wire Wire Line
+	11100 2000 11400 2000
+Connection ~ 11100 2000
+Wire Wire Line
+	10250 2600 9650 2600
+Wire Wire Line
+	9650 2600 9650 2000
+Wire Wire Line
+	9350 2000 9650 2000
+Wire Wire Line
+	9650 2000 9850 2000
+Connection ~ 9650 2000
+Wire Wire Line
+	10100 1750 10100 1800
+Wire Wire Line
+	10100 2200 10100 2250
+Wire Wire Line
+	10500 2400 10500 2350
+Wire Wire Line
+	10500 2800 10500 2850
+Wire Wire Line
+	11700 2000 11850 2000
+Wire Wire Line
+	11700 2400 11850 2400
+Wire Wire Line
+	9900 3350 9900 3400
+Wire Wire Line
+	9550 3400 9900 3400
+Wire Wire Line
+	9900 3400 10250 3400
+Wire Wire Line
+	10250 3400 10850 3400
+Wire Wire Line
+	10250 3400 10250 3450
+Wire Wire Line
+	10850 3400 10850 3500
+Connection ~ 10250 3400
+Wire Wire Line
+	10850 3700 10850 3900
+Wire Wire Line
+	10250 3750 10250 3950
+Wire Wire Line
+	10250 3950 10250 4200
+Wire Wire Line
+	9850 3950 10250 3950
+Connection ~ 10250 3950
+Wire Wire Line
+	9850 4300 9850 4400
+Wire Wire Line
+	9850 4400 9950 4400
+Wire Wire Line
+	9550 3750 9550 3700
+Connection ~ 9900 3400
+Wire Wire Line
+	9550 4150 9550 4400
+Wire Wire Line
+	9550 4400 9550 4700
+Wire Wire Line
+	9350 4400 9550 4400
+Connection ~ 9550 4400
+Wire Wire Line
+	10250 4600 10250 4650
+Wire Wire Line
+	10250 4650 10250 4750
+Wire Wire Line
+	10250 4650 10950 4650
+Wire Wire Line
+	10950 4650 11450 4650
+Connection ~ 10250 4650
+Wire Wire Line
+	10950 4700 10950 4650
+Connection ~ 10950 4650
+Wire Wire Line
+	10950 5050 10950 5000
+Wire Wire Line
+	9550 5000 9550 5050
+Wire Wire Line
+	9550 5050 9950 5050
+Wire Wire Line
+	9950 5050 10250 5050
+Wire Wire Line
+	10250 5050 10950 5050
+Wire Wire Line
+	10950 5050 11450 5050
+Wire Wire Line
+	9950 5150 9950 5050
+Connection ~ 9950 5050
+Wire Wire Line
+	10250 4950 10250 5050
+Connection ~ 10250 5050
+Wire Wire Line
+	11450 5050 11450 4950
+Wire Wire Line
+	11450 4950 11550 4950
+Connection ~ 10950 5050
+Wire Wire Line
+	11450 4650 11450 4750
+Wire Wire Line
+	11450 4750 11550 4750
+Wire Wire Line
+	11850 4750 12500 4750
+Wire Wire Line
+	11850 4950 12500 4950
+Wire Wire Line
+	9050 4400 8600 4400
+Wire Wire Line
+	8600 4400 8600 4450
+Wire Wire Line
+	8600 5150 8600 5050
+Wire Wire Line
+	8600 5750 8600 5850
+Wire Wire Line
+	8600 5850 8550 5850
+Wire Wire Line
+	15000 6800 15000 6850
+Wire Wire Line
+	15000 7250 15000 7450
+Wire Wire Line
+	15000 7450 14850 7450
+Wire Wire Line
+	14550 7450 14450 7450
+Wire Wire Line
+	14100 7650 14100 7800
+Wire Wire Line
+	14100 7250 14100 7200
+Wire Wire Line
+	13500 7450 13600 7450
+Wire Wire Line
+	13600 7450 13850 7450
+Wire Wire Line
+	13600 7800 13600 7750
+Wire Wire Line
+	13600 7200 13600 7450
+Wire Wire Line
+	13600 7450 13600 7550
+Connection ~ 13600 7450
+Wire Wire Line
+	13350 7200 13600 7200
+Wire Wire Line
+	12600 7450 12850 7450
+Wire Wire Line
+	12850 7450 12900 7450
+Wire Wire Line
+	13150 7200 12850 7200
+Wire Wire Line
+	12850 7200 12850 7450
+Connection ~ 12850 7450
+Wire Wire Line
+	12250 7650 12250 7800
+Wire Wire Line
+	12250 7200 12250 7250
+Wire Wire Line
+	12000 7450 11850 7450
+Wire Wire Line
+	8800 4700 8800 4650
+Wire Wire Line
+	8400 4700 8400 4750
+Wire Wire Line
+	8800 5400 8800 5350
+Wire Wire Line
+	8400 5400 8400 5450
+Wire Wire Line
+	11800 9500 11800 9300
+Wire Wire Line
+	12850 9300 12850 9500
+Wire Wire Line
+	13900 9300 13900 9500
+Wire Wire Line
+	14900 9300 14900 9500
+Wire Wire Line
+	14200 3100 14500 3100
+Wire Wire Line
+	14200 3400 14500 3400
+Wire Wire Line
+	14500 3500 14200 3500
+Wire Wire Line
+	14200 3800 14500 3800
+Wire Wire Line
+	1950 5550 2200 5550
+Wire Wire Line
+	2200 5450 2200 5550
+Wire Wire Line
+	2200 5550 2200 5700
+Wire Wire Line
+	1950 5450 2200 5450
+Connection ~ 2200 5550
+Wire Wire Line
+	1950 5150 3500 5150
+Wire Wire Line
+	3500 5250 1950 5250
+Wire Wire Line
+	3500 5350 3300 5350
+Wire Wire Line
+	3300 5350 3300 5550
+Wire Wire Line
+	1950 5050 2250 5050
+Wire Wire Line
+	2550 5050 2800 5050
+Wire Wire Line
+	2800 5050 3050 5050
+Wire Wire Line
+	2800 5050 2800 4900
+Wire Wire Line
+	3350 4900 3350 5050
+Wire Wire Line
+	3350 5050 3500 5050
+Wire Wire Line
+	4900 5150 5100 5150
+Wire Wire Line
+	4900 5250 5100 5250
+Wire Wire Line
+	3050 5050 3050 4900
+Connection ~ 2800 5050
+Wire Wire Line
+	2200 1900 2600 1900
+Wire Wire Line
+	2200 2000 2600 2000
+Wire Wire Line
+	14200 3600 14500 3600
+Wire Wire Line
+	14500 3700 14200 3700
+Wire Wire Line
+	14200 3300 14500 3300
+Wire Wire Line
+	14500 3200 14200 3200
+Wire Wire Line
+	8550 7550 8750 7550
+Wire Wire Line
+	8750 7550 10350 7550
+Wire Wire Line
+	10350 7550 10500 7550
+Wire Wire Line
+	8550 8050 8750 8050
+Wire Wire Line
+	8750 8050 10500 8050
+Wire Wire Line
+	10050 7850 10350 7850
+Wire Wire Line
+	10350 7850 10350 7550
+Connection ~ 10350 7550
+Wire Wire Line
+	9300 7850 9650 7850
+Wire Wire Line
+	9000 7850 8750 7850
+Connection ~ 8750 8050
+$Comp
+L 2K40_1608M R?
+U 1 1 59C9F090
+P 9300 7850
+F 0 "R?" V 9112 7700 50  0000 C CNN
+F 1 "2K40_1608M" V 9192 7700 35  0000 C CNN
+F 2 "RESC1608*" V 9410 7700 20  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1788326.pdf" V 9435 7700 20  0001 C CNN
+F 4 "MULTICOMP" V 9485 7700 20  0001 C CNN "manf"
+F 5 "MC0063W060312K4" V 9510 7700 20  0001 C CNN "manf#"
+F 6 "Element14" V 9535 7700 20  0001 C CNN "Supplier"
+F 7 "9330879" V 9560 7700 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.element14.com/multicomp/mc0063w060312k4/resistor-2k4-0-063w-1-0603/dp/9330879" V 9585 7700 20  0001 C CNN "Supplier URL"
+F 9 "0.0011" V 9610 7700 20  0001 C CNN "Supplier Price"
+F 10 "1" V 9635 7700 20  0001 C CNN "Supplier Price Break"
+	1    9300 7850
+	0    1    1    0   
+$EndComp
+Text GLabel 8550 7550 0    60   Input ~ 0
+INPUT_A+
+Text GLabel 8550 8050 0    60   Input ~ 0
+INPUT_A-
+$Comp
+L +POWER #PWR?
+U 1 1 59CA005C
+P 8750 7200
+F 0 "#PWR?" H 8750 7150 20  0001 C CNN
+F 1 "+POWER" H 8753 7338 30  0000 C CNN
+F 2 "" H 8750 7200 60  0000 C CNN
+F 3 "" H 8750 7200 60  0000 C CNN
+	1    8750 7200
+	1    0    0    -1  
+$EndComp
+Connection ~ 8750 7550
+$Comp
+L LED_GREEN_1608M D?
+U 1 1 59CA0265
+P 9850 9250
+F 0 "D?" H 9850 9455 50  0000 C CNN
+F 1 "LED_GREEN_1608M" H 9850 9364 50  0000 C CNN
+F 2 "" H 9750 9250 50  0000 C CNN
+F 3 "http://www.farnell.com/datasheets/1720200.pdf" H 9850 9040 50  0001 C CNN
+F 4 "DIALIGHT" H 9850 8830 60  0001 C CNN "manf"
+F 5 "5988070107F" H 9850 8740 60  0001 C CNN "manf#"
+F 6 "Element 14" H 9850 8640 60  0001 C CNN "Supplier"
+F 7 "1465991" H 9850 8540 60  0001 C CNN "Supplier Part No"
+F 8 "http://au.element14.com/dialight/5988070107f/led-0603-green-20mcd-566nm/dp/1465991" H 9860 8460 60  0001 C CNN "Supplier URL"
+F 9 "0.4" H 9850 8360 60  0001 C CNN "Supplier Price"
+F 10 "10" H 9850 8260 60  0001 C CNN "Supplier Price Break"
+	1    9850 9250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 8950 8750 8950
+Wire Wire Line
+	8750 8950 10350 8950
+Wire Wire Line
+	10350 8950 10500 8950
+Wire Wire Line
+	8550 9450 8750 9450
+Wire Wire Line
+	8750 9450 10500 9450
+Wire Wire Line
+	10050 9250 10350 9250
+Wire Wire Line
+	10350 9250 10350 8950
+Connection ~ 10350 8950
+Wire Wire Line
+	9300 9250 9650 9250
+Wire Wire Line
+	9000 9250 8750 9250
+Connection ~ 8750 9450
+$Comp
+L 2K40_1608M R?
+U 1 1 59CA027C
+P 9300 9250
+F 0 "R?" V 9112 9100 50  0000 C CNN
+F 1 "2K40_1608M" V 9192 9100 35  0000 C CNN
+F 2 "RESC1608*" V 9410 9100 20  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1788326.pdf" V 9435 9100 20  0001 C CNN
+F 4 "MULTICOMP" V 9485 9100 20  0001 C CNN "manf"
+F 5 "MC0063W060312K4" V 9510 9100 20  0001 C CNN "manf#"
+F 6 "Element14" V 9535 9100 20  0001 C CNN "Supplier"
+F 7 "9330879" V 9560 9100 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.element14.com/multicomp/mc0063w060312k4/resistor-2k4-0-063w-1-0603/dp/9330879" V 9585 9100 20  0001 C CNN "Supplier URL"
+F 9 "0.0011" V 9610 9100 20  0001 C CNN "Supplier Price"
+F 10 "1" V 9635 9100 20  0001 C CNN "Supplier Price Break"
+	1    9300 9250
+	0    1    1    0   
+$EndComp
+Text GLabel 8550 8950 0    60   Input ~ 0
+INPUT_B+
+Text GLabel 8550 9450 0    60   Input ~ 0
+INPUT_B-
+$Comp
+L +POWER #PWR?
+U 1 1 59CA028B
+P 8750 8600
+F 0 "#PWR?" H 8750 8550 20  0001 C CNN
+F 1 "+POWER" H 8753 8738 30  0000 C CNN
+F 2 "" H 8750 8600 60  0000 C CNN
+F 3 "" H 8750 8600 60  0000 C CNN
+	1    8750 8600
+	1    0    0    -1  
+$EndComp
+Connection ~ 8750 8950
+Wire Wire Line
+	8750 9250 8750 9450
+Wire Wire Line
+	8750 7850 8750 8050
+Text GLabel 6800 7650 2    60   Output ~ 0
+INPUT_A+
+Text GLabel 6800 7850 2    60   Output ~ 0
+INPUT_A-
+Text GLabel 6800 8950 2    60   Output ~ 0
+INPUT_B+
+Text GLabel 6800 9150 2    60   Output ~ 0
+INPUT_B-
+$Comp
+L +POWER #PWR?
+U 1 1 59CA287D
+P 7450 7600
+F 0 "#PWR?" H 7450 7550 20  0001 C CNN
+F 1 "+POWER" H 7453 7738 30  0000 C CNN
+F 2 "" H 7450 7600 60  0000 C CNN
+F 3 "" H 7450 7600 60  0000 C CNN
+	1    7450 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59CA2919
+P 7450 8050
+F 0 "#PWR?" H 7450 7800 50  0001 C CNN
+F 1 "GND" H 7455 7877 50  0000 C CNN
+F 2 "" H 7450 8050 60  0000 C CNN
+F 3 "" H 7450 8050 60  0000 C CNN
+	1    7450 8050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 7650 6650 7650
+Wire Wire Line
+	6650 7750 7450 7750
+Wire Wire Line
+	7450 7750 7450 7600
+Wire Wire Line
+	6650 7950 7450 7950
+Wire Wire Line
+	7450 7950 7450 8050
+Wire Wire Line
+	6800 7850 6650 7850
+$Comp
+L BAS21_SOT23 D?
+U 1 1 59CA35C3
+P 8750 7350
+F 0 "D?" V 8796 7282 50  0000 R CNN
+F 1 "BAS21_SOT23" V 8705 7282 50  0000 R CNN
+F 2 "SOT95P240X110-3L16*" H 8750 7200 20  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/308/BAS21-1118533.pdf" H 8750 7175 20  0001 C CNN
+F 4 "ON SEMICONDUCTOR" H 8750 7125 20  0001 C CNN "manf"
+F 5 "BAS21" H 8750 7100 20  0001 C CNN "manf#"
+F 6 "Mouser" H 8750 7075 20  0001 C CNN "Supplier"
+F 7 "512-BAS21" H 8750 7050 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.mouser.com/Search/ProductDetail.aspx?qs=GXJjH%252bIVz3MgJ%252bf2%252bjymzQ%3D%3D" H 8750 7025 20  0001 C CNN "Supplier URL"
+F 9 "0.228" H 8750 7000 20  0001 C CNN "Supplier Price"
+F 10 "10" H 8750 6975 20  0001 C CNN "Supplier Price Break"
+	1    8750 7350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8750 7200 8750 7250
+Wire Wire Line
+	8750 7450 8750 7550
+$Comp
+L BAS21_SOT23 D?
+U 1 1 59CA38E1
+P 8750 8750
+F 0 "D?" V 8796 8682 50  0000 R CNN
+F 1 "BAS21_SOT23" V 8705 8682 50  0000 R CNN
+F 2 "SOT95P240X110-3L16*" H 8750 8600 20  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/308/BAS21-1118533.pdf" H 8750 8575 20  0001 C CNN
+F 4 "ON SEMICONDUCTOR" H 8750 8525 20  0001 C CNN "manf"
+F 5 "BAS21" H 8750 8500 20  0001 C CNN "manf#"
+F 6 "Mouser" H 8750 8475 20  0001 C CNN "Supplier"
+F 7 "512-BAS21" H 8750 8450 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.mouser.com/Search/ProductDetail.aspx?qs=GXJjH%252bIVz3MgJ%252bf2%252bjymzQ%3D%3D" H 8750 8425 20  0001 C CNN "Supplier URL"
+F 9 "0.228" H 8750 8400 20  0001 C CNN "Supplier Price"
+F 10 "10" H 8750 8375 20  0001 C CNN "Supplier Price Break"
+	1    8750 8750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8750 8600 8750 8650
+Wire Wire Line
+	8750 8850 8750 8950
+$Comp
+L MOLEX_MICROFIT_JR_RH_2x2_WAY P?
+U 1 1 59CA43BE
+P 6450 9100
+F 0 "P?" H 6528 9130 50  0000 L CNN
+F 1 "MOLEX_MICROFIT_JR_RH_2x2_WAY" H 6528 9050 35  0000 L CNN
+F 2 "" V 6625 9100 20  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/276/0026013115_PCB_HEADERS-227840.pdf" V 6650 9100 20  0001 C CNN
+F 4 "MOLEX" V 6700 9100 20  0001 C CNN "manf"
+F 5 "26-01-3115" V 6725 9100 20  0001 C CNN "manf#"
+F 6 "Mouser" V 6750 9100 20  0001 C CNN "Supplier"
+F 7 "538-26-01-3115" V 6775 9100 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.mouser.com/ProductDetail/Molex/26-01-3115/?qs=%2fha2pyFadugDpYK%2fBAu8EnNIIw97Z567UxXxDgiBIzo%3d" V 6800 9100 20  0001 C CNN "Supplier URL"
+F 9 "1.47" V 6825 9100 20  0001 C CNN "Supplier Price"
+F 10 "1" V 6850 9100 20  0001 C CNN "Supplier Price Break"
+	1    6450 9100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L +POWER #PWR?
+U 1 1 59CA43C7
+P 7450 8900
+F 0 "#PWR?" H 7450 8850 20  0001 C CNN
+F 1 "+POWER" H 7453 9038 30  0000 C CNN
+F 2 "" H 7450 8900 60  0000 C CNN
+F 3 "" H 7450 8900 60  0000 C CNN
+	1    7450 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59CA43CD
+P 7450 9350
+F 0 "#PWR?" H 7450 9100 50  0001 C CNN
+F 1 "GND" H 7455 9177 50  0000 C CNN
+F 2 "" H 7450 9350 60  0000 C CNN
+F 3 "" H 7450 9350 60  0000 C CNN
+	1    7450 9350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 8950 6650 8950
+Wire Wire Line
+	6650 9050 7450 9050
+Wire Wire Line
+	7450 9050 7450 8900
+Wire Wire Line
+	6650 9250 7450 9250
+Wire Wire Line
+	7450 9250 7450 9350
+Wire Wire Line
+	6800 9150 6650 9150
+Text Notes 12300 6750 0    60   ~ 0
+Adds visual aid to show when serial bus is active.
+Text Notes 2250 7450 0    60   ~ 0
+FT230XS-R\n5V capable SSOP16 IC
+$EndSCHEMATC
