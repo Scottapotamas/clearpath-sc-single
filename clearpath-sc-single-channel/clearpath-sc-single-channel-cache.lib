@@ -94,6 +94,128 @@ X ~ 2 0 -300 45 U 30 30 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 1UF_X7R_2012M
+#
+DEF 1UF_X7R_2012M C 0 10 N Y 1 F N
+F0 "C" -90 -100 50 V V C CNN
+F1 "1UF_X7R_2012M" 85 -100 35 V V C CNN
+F2 "CAPC2012*" 115 -100 20 V I C CNN
+F3 "http://www.farnell.com/datasheets/2047889.pdf" 140 -100 20 V I C CNN
+F4 "MURATA" 190 -100 20 V I C CNN "manf"
+F5 "GRM21BR71C105KA01L" 215 -100 20 V I C CNN "manf#"
+F6 "Element14" 240 -100 20 V I C CNN "Supplier"
+F7 "9527710" 265 -100 20 V I C CNN "Supplier Part No"
+F8 "http://au.element14.com/murata/grm21br71c105ka01l/cap-mlcc-x7r-1uf-16v-0805/dp/9527710" 290 -100 20 V I C CNN "Supplier URL"
+F9 "0.224" 315 -100 20 V I C CNN "Supplier Price"
+F10 "1" 340 -100 20 V I C CNN "Supplier Price Break"
+$FPLIST
+ CAPC2012*
+$ENDFPLIST
+DRAW
+S -50 -110 50 -130 0 1 0 F
+S -50 -70 50 -90 0 1 0 F
+X ~ 1 0 0 70 D 30 30 1 1 P
+X ~ 2 0 -200 70 U 30 30 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1UF_X7R_3216M
+#
+DEF 1UF_X7R_3216M C 0 10 N Y 1 F N
+F0 "C" -90 -100 50 V V C CNN
+F1 "1UF_X7R_3216M" 85 -100 35 V V C CNN
+F2 "Applidyne_Capacitor:CAPC3216X135N" 115 -100 20 V I C CNN
+F3 "http://docs-asia.electrocomponents.com/webdocs/1532/0900766b81532cd0.pdf" 140 -100 20 V I C CNN
+F4 "TDK" 190 -100 20 V I C CNN "manf"
+F5 "C3216X7R2A105K160AA" 215 -100 20 V I C CNN "manf#"
+F6 "RS Online" 240 -100 20 V I C CNN "Supplier"
+F7 "740-7590" 265 -100 20 V I C CNN "Supplier Part No"
+F8 "http://au.element14.com/murata/grm31cr71e106ka12l/cap-mlcc-x7r-10uf-25v-1206/dp/1735546" 290 -100 20 V I C CNN "Supplier URL"
+F9 "0.308" 315 -100 20 V I C CNN "Supplier Price"
+F10 "10" 340 -100 20 V I C CNN "Supplier Price Break"
+$FPLIST
+ CAPC3216*
+$ENDFPLIST
+DRAW
+S -50 -110 50 -130 0 1 0 F
+S -50 -70 50 -90 0 1 0 F
+X ~ 1 0 0 70 D 30 30 1 1 P
+X ~ 2 0 -200 70 U 30 30 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 22R_1608M
+#
+DEF 22R_1608M R 0 0 N Y 1 F N
+F0 "R" -85 -150 50 V V C CNN
+F1 "22R_1608M" 80 -150 35 V V C CNN
+F2 "RESC1608*" 110 -150 20 V I C CNN
+F3 "http://www.farnell.com/datasheets/1788326.pdf" 135 -150 20 V I C CNN
+F4 "MULTICOMP" 185 -150 20 V I C CNN "manf"
+F5 "MC0063W060314R22" 210 -150 20 V I C CNN "manf#"
+F6 "Element14" 235 -150 20 V I C CNN "Supplier"
+F7 "2141539" 260 -150 20 V I C CNN "Supplier Part No"
+F8 "http://au.element14.com/multicomp/mc0063w060314r22/res-thick-film-4r22-1-0-063w-0603/dp/2141539" 285 -150 20 V I C CNN "Supplier URL"
+F9 "0.015" 310 -150 20 V I C CNN "Supplier Price"
+F10 "1" 335 -150 20 V I C CNN "Supplier Price Break"
+$FPLIST
+ RESC1608*
+$ENDFPLIST
+DRAW
+S -40 -45 40 -255 0 1 15 N
+X ~ 1 0 0 45 D 30 30 1 1 P
+X ~ 2 0 -300 45 U 30 30 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 240R_1608M
+#
+DEF 240R_1608M R 0 0 N Y 1 F N
+F0 "R" -85 -150 50 V V C CNN
+F1 "240R_1608M" 80 -150 35 V V C CNN
+F2 "RESC1608*" 110 -150 20 V I C CNN
+F3 "http://www.farnell.com/datasheets/1533075.pdf" 135 -150 20 V I C CNN
+F4 "VISHAY DRALORIC" 185 -150 20 V I C CNN "manf"
+F5 "CRCW0603240RFKEA" 210 -150 20 V I C CNN "manf#"
+F6 "Element14" 235 -150 20 V I C CNN "Supplier"
+F7 "1652863" 260 -150 20 V I C CNN "Supplier Part No"
+F8 "http://au.element14.com/vishay-draloric/crcw0603240rfkea/resistor-0603-240r-1/dp/1652863" 285 -150 20 V I C CNN "Supplier URL"
+F9 "0.00221" 310 -150 20 V I C CNN "Supplier Price"
+F10 "1" 335 -150 20 V I C CNN "Supplier Price Break"
+$FPLIST
+ RESC1608*
+$ENDFPLIST
+DRAW
+S -40 -45 40 -255 0 1 15 N
+X ~ 1 0 0 45 D 30 30 1 1 P
+X ~ 2 0 -300 45 U 30 30 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 2K2_1608M
+#
+DEF 2K2_1608M R 0 0 N Y 1 F N
+F0 "R" -85 -150 50 V V C CNN
+F1 "2K2_1608M" 80 -150 35 V V C CNN
+F2 "RESC1608*" 110 -150 20 V I C CNN
+F3 "http://www.farnell.com/datasheets/2310790.pdf" 135 -150 20 V I C CNN
+F4 "VISHAY" 185 -150 20 V I C CNN "manf"
+F5 "CRCW06032K20FKEA" 210 -150 20 V I C CNN "manf#"
+F6 "Element14" 235 -150 20 V I C CNN "Supplier"
+F7 "1469765" 260 -150 20 V I C CNN "Supplier Part No"
+F8 "http://au.element14.com/vishay/crcw06032k20fkea/res-thick-film-2k2-1-0-1w-0603/dp/1469765" 285 -150 20 V I C CNN "Supplier URL"
+F9 "0.062" 310 -150 20 V I C CNN "Supplier Price"
+F10 "10" 335 -150 20 V I C CNN "Supplier Price Break"
+$FPLIST
+ RESC1608*
+$ENDFPLIST
+DRAW
+S -40 -45 40 -255 0 1 15 N
+X ~ 1 0 0 45 D 30 30 1 1 P
+X ~ 2 0 -300 45 U 30 30 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 2K40_1608M
 #
 DEF 2K40_1608M R 0 0 N Y 1 F N
@@ -157,6 +279,30 @@ F7 "9331131" 260 -150 20 V I C CNN "Supplier Part No"
 F8 "http://au.element14.com/multicomp/mc0063w06031390r/resistor-390r-0-063w-1-0603/dp/9331131" 285 -150 20 V I C CNN "Supplier URL"
 F9 "0.00141" 310 -150 20 V I C CNN "Supplier Price"
 F10 "1" 335 -150 20 V I C CNN "Supplier Price Break"
+$FPLIST
+ RESC1608*
+$ENDFPLIST
+DRAW
+S -40 -45 40 -255 0 1 15 N
+X ~ 1 0 0 45 D 30 30 1 1 P
+X ~ 2 0 -300 45 U 30 30 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 470K_1608M
+#
+DEF 470K_1608M R 0 0 N Y 1 F N
+F0 "R" -85 -150 50 V V C CNN
+F1 "470K_1608M" 80 -150 35 V V C CNN
+F2 "RESC1608*" 110 -150 20 V I C CNN
+F3 "http://www.farnell.com/datasheets/1911175.pdf" 135 -150 20 V I C CNN
+F4 "PANASONIC" 185 -150 20 V I C CNN "manf"
+F5 "ERJ3EKF4703V" 210 -150 20 V I C CNN "manf#"
+F6 "Element14" 235 -150 20 V I C CNN "Supplier"
+F7 "2303289" 260 -150 20 V I C CNN "Supplier Part No"
+F8 "http://au.element14.com/panasonic-electronic-components/erj3ekf4703v/res-thick-film-470k-1-0-1w-0603/dp/2303289" 285 -150 20 V I C CNN "Supplier URL"
+F9 "0.009" 310 -150 20 V I C CNN "Supplier Price"
+F10 "50" 335 -150 20 V I C CNN "Supplier Price Break"
 $FPLIST
  RESC1608*
 $ENDFPLIST
@@ -264,6 +410,54 @@ X ~ 2 0 -300 45 U 30 30 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 750R_1608M
+#
+DEF 750R_1608M R 0 0 N Y 1 F N
+F0 "R" -85 -150 50 V V C CNN
+F1 "750R_1608M" 80 -150 35 V V C CNN
+F2 "RESC1608*" 110 -150 20 V I C CNN
+F3 "http://www.farnell.com/datasheets/2059623.pdf" 135 -150 20 V I C CNN
+F4 "PANASONIC" 185 -150 20 V I C CNN "manf"
+F5 "ERJ3GEYJ751V" 210 -150 20 V I C CNN "manf#"
+F6 "Element14" 235 -150 20 V I C CNN "Supplier"
+F7 "2059597" 260 -150 20 V I C CNN "Supplier Part No"
+F8 "http://au.element14.com/panasonic-electronic-components/erj3geyj751v/res-thick-film-750r-5-0-1w-0603/dp/2059597" 285 -150 20 V I C CNN "Supplier URL"
+F9 "0.013" 310 -150 20 V I C CNN "Supplier Price"
+F10 "50" 335 -150 20 V I C CNN "Supplier Price Break"
+$FPLIST
+ RESC1608*
+$ENDFPLIST
+DRAW
+S -40 -45 40 -255 0 1 15 N
+X ~ 1 0 0 45 D 30 30 1 1 P
+X ~ 2 0 -300 45 U 30 30 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 768R_1608M
+#
+DEF 768R_1608M R 0 0 N Y 1 F N
+F0 "R" -85 -150 50 V V C CNN
+F1 "768R_1608M" 80 -150 35 V V C CNN
+F2 "RESC1608*" 110 -150 20 V I C CNN
+F3 "http://www.farnell.com/datasheets/1911175.pdf" 135 -150 20 V I C CNN
+F4 "PANASONIC" 185 -150 20 V I C CNN "manf"
+F5 "ERJ3EKF7680V" 210 -150 20 V I C CNN "manf#"
+F6 "Element14" 235 -150 20 V I C CNN "Supplier"
+F7 "2303134" 260 -150 20 V I C CNN "Supplier Part No"
+F8 "http://au.element14.com/panasonic-electronic-components/erj3ekf7680v/res-thick-film-768r-1-0-1w-0603/dp/2303134" 285 -150 20 V I C CNN "Supplier URL"
+F9 "0.009" 310 -150 20 V I C CNN "Supplier Price"
+F10 "50" 335 -150 20 V I C CNN "Supplier Price Break"
+$FPLIST
+ RESC1608*
+$ENDFPLIST
+DRAW
+S -40 -45 40 -255 0 1 15 N
+X ~ 1 0 0 45 D 30 30 1 1 P
+X ~ 2 0 -300 45 U 30 30 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 93K1_1608M
 #
 DEF 93K1_1608M R 0 0 N Y 1 F N
@@ -345,6 +539,41 @@ X ~ 4 -100 -150 45 U 30 30 1 1 P
 ENDDRAW
 ENDDEF
 #
+# FT230XS-R
+#
+DEF FT230XS-R U 0 40 Y Y 1 F N
+F0 "U" -650 750 60 H V C CNN
+F1 "FT230XS-R" 450 -750 60 H V C CNN
+F2 "" 1025 1675 60 H I C CNN
+F3 "http://www.mouser.com/ds/2/163/DS_FT230X-5395.pdf" -25 -125 20 H I C CNN
+F4 "FTDI" -25 -175 20 H I C CNN "manf"
+F5 "FT230XS-R" -25 -200 20 H I C CNN "manf#"
+F6 "Mouser" -25 -225 20 H I C CNN "Supplier"
+F7 "895-FT230XS-R" -25 -250 20 H I C CNN "Supplier Part No"
+F8 "http://au.mouser.com/ProductDetail/FTDI/FT230XS-R/" -25 -275 20 H I C CNN "Supplier URL"
+F9 "2.80" -25 -300 20 H I C CNN "Supplier Price"
+F10 "1" 340 -150 20 V I C CNN "Supplier Price Break"
+DRAW
+S -700 -650 700 650 0 1 0 f
+X TXD 1 1000 500 300 L 50 50 1 1 P
+X 3V3OUT 10 -1000 500 300 R 50 50 1 1 w
+X RESET# 11 -1000 -500 300 R 50 50 1 1 P
+X VCC 12 -100 950 300 D 50 50 1 1 W
+X GND 13 100 -950 300 U 50 50 1 1 W
+X CBUS1 14 1000 -300 300 L 50 50 1 1 P
+X CBUS0 15 1000 -200 300 L 50 50 1 1 P
+X CBUS3 16 1000 -500 300 L 50 50 1 1 P
+X RTS# 2 1000 300 300 L 50 50 1 1 P
+X VCCIO 3 100 950 300 D 50 50 1 1 W
+X RXD 4 1000 400 300 L 50 50 1 1 P
+X GND 5 -100 -950 300 U 50 50 1 1 W
+X CTS# 6 1000 200 300 L 50 50 1 1 P
+X CBUS2 7 1000 -400 300 L 50 50 1 1 P
+X USB_DP 8 -1000 -50 300 R 50 50 1 1 B
+X USB_DM 9 -1000 50 300 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
 # GND
 #
 DEF GND #PWR 0 0 Y Y 1 F P
@@ -382,6 +611,31 @@ P 3 0 1 0 -65 -40 -110 -80 -105 -55 N
 P 4 0 1 0 40 -40 -20 0 40 40 40 -40 F
 X A A 200 0 175 L 40 40 1 1 P
 X C C -200 0 175 R 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LM317LCPK
+#
+DEF LM317LCPK U 0 40 Y Y 1 F N
+F0 "U" -250 250 40 H V L CNN
+F1 "LM317LCPK" -250 200 40 H V L CNN
+F2 "SOT89*" 50 -175 20 H I L CIN
+F3 "http://www.ti.com/lit/ds/symlink/lm317l.pdf" 50 -200 20 H I L CNN
+F4 "TEXAS INSTRUMENTS" 50 -250 20 H I L CNN "manf"
+F5 "LM317LCPK" 50 -275 20 H I L CNN "manf#"
+F6 "Element14" 50 -300 20 H I L CNN "Supplier"
+F7 "2114055" 50 -325 20 H I L CNN "Supplier Part No"
+F8 "http://au.element14.com/texas-instruments/lm317lcpk/adjustable-linear-regulator-1/dp/2114055" 50 -350 20 H I L CNN "Supplier URL"
+F9 "0.213" 50 -375 20 H I L CNN "Supplier Price"
+F10 "1" 50 -400 20 H I L CNN "Supplier Price Break"
+$FPLIST
+ SOT89*
+$ENDFPLIST
+DRAW
+S -250 150 250 -150 0 1 10 f
+X ADJ 1 0 -250 100 U 40 40 1 1 I
+X OUT 2 400 50 150 L 40 40 1 1 w
+X IN 3 -400 50 150 R 40 40 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -630,8 +884,8 @@ ENDDEF
 DEF USB_MICRO_B_SMD_2 J? 0 0 N Y 1 F N
 F0 "J?" 0 -350 60 H V C CNN
 F1 "USB_MICRO_B_SMD_2" 0 400 60 H V C CNN
-F2 "Applidyne_USB:MOLEX_47346-0001" -100 -450 60 H V C CNN
-F3 "http://www.farnell.com/datasheets/2214755.pdf" 0 -480 60 H I C CNN
+F2 "Applidyne_USB:MOLEX_47346-0001" 0 -600 60 H I C CNN
+F3 "http://www.farnell.com/datasheets/2214755.pdf" 0 -500 60 H I C CNN
 F4 "Molex" 0 -700 60 H I C CNN "manf"
 F5 "47346-0001" 0 -810 60 H I C CNN "manf#"
 F6 "Element 14" 0 -920 60 H I C CNN "Supplier"
