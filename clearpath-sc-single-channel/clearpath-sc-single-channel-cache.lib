@@ -45,6 +45,31 @@ X +POWER 1 0 0 0 U 20 20 0 0 W N
 ENDDRAW
 ENDDEF
 #
+# 1000V_1A_SODFL5125
+#
+DEF 1000V_1A_SODFL5125 D 0 10 N N 1 F N
+F0 "D" 0 80 50 H V C CNN
+F1 "1000V_1A_SODFL5125" 0 -80 50 H V C CNN
+F2 "SODFL5125*" 0 -150 20 H I C CNN
+F3 "http://www.farnell.com/datasheets/1662762.pdf" 0 -175 20 H I C CNN
+F4 "MULTICOMP" 0 -225 20 H I C CNN "manf"
+F5 "S1M" 0 -250 20 H I C CNN "manf#"
+F6 "Element14" 0 -275 20 H I C CNN "Supplier"
+F7 "1625198" 0 -300 20 H I C CNN "Supplier Part No"
+F8 "http://au.element14.com/multicomp/s1m/diode-standard-1a-1000v/dp/1625198" 0 -325 20 H I C CNN "Supplier URL"
+F9 "0.046" 0 -350 20 H I C CNN "Supplier Price"
+F10 "1" 0 -375 20 H I C CNN "Supplier Price Break"
+$FPLIST
+ SODFL5125*
+$ENDFPLIST
+DRAW
+S -30 40 -45 -40 0 1 0 F
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
+X A A 100 0 70 L 50 50 1 1 P
+X C C -100 0 70 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 100NF_X7R_1608M
 #
 DEF 100NF_X7R_1608M C 0 10 N Y 1 F N
@@ -65,6 +90,33 @@ $ENDFPLIST
 DRAW
 S -50 -110 50 -130 0 1 0 F
 S -50 -70 50 -90 0 1 0 F
+X ~ 1 0 0 70 D 30 30 1 1 P
+X ~ 2 0 -200 70 U 30 30 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 100UF_ELEC_35V_660X580M
+#
+DEF 100UF_ELEC_35V_660X580M C 0 10 N Y 1 F N
+F0 "C" -90 -100 50 V V C CNN
+F1 "100UF_ELEC_35V_660X580M" 85 -100 35 V V C CNN
+F2 "CAPAE660X580DD180L260*" 115 -100 20 V I C CNN
+F3 "http://www.farnell.com/datasheets/1790597.pdf" 140 -100 20 V I C CNN
+F4 "PANASONIC" 190 -100 20 V I C CNN "manf"
+F5 "EEEFT1V101AP" 215 -100 20 V I C CNN "manf#"
+F6 "Element14" 240 -100 20 V I C CNN "Supplier"
+F7 "1868417" 265 -100 20 V I C CNN "Supplier Part No"
+F8 "http://au.element14.com/panasonic-electronic-components/eeeft1v101ap/cap-alu-elec-100uf-35v-smd/dp/1868417" 290 -100 20 V I C CNN "Supplier URL"
+F9 "1.02" 315 -100 20 V I C CNN "Supplier Price"
+F10 "1" 340 -100 20 V I C CNN "Supplier Price Break"
+$FPLIST
+ CAPAE660X580DD180L260*
+$ENDFPLIST
+DRAW
+S -50 -110 50 -130 0 1 0 F
+S -50 -70 50 -90 0 1 0 N
+P 2 0 1 0 -50 -40 -20 -40 N
+P 2 0 1 0 -35 -25 -35 -55 N
 X ~ 1 0 0 70 D 30 30 1 1 P
 X ~ 2 0 -200 70 U 30 30 1 1 P
 ENDDRAW

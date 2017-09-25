@@ -1,4 +1,4 @@
-update=Sun 24 Sep 2017 20:23:43 ACST
+update=Mon 25 Sep 2017 13:44:48 ACST
 version=1
 last_client=kicad
 [general]
@@ -68,3 +68,13 @@ LibName34=appli_ublox
 LibName35=appli_uC
 LibName36=appli_usb
 LibName37=appli_wireless
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
