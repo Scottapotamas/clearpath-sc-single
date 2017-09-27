@@ -564,7 +564,7 @@ ENDDEF
 DEF CHOKE_6500uH_300mA_0.3-2MHz FB 0 0 N Y 1 F N
 F0 "FB" -200 0 55 V V C CNN
 F1 "CHOKE_6500uH_300mA_0.3-2MHz" 200 0 35 V V C CNN
-F2 "" 265 0 20 V I C CNN
+F2 "Applidyne_Inductor:SRF0905" 265 0 20 V I C CNN
 F3 "http://www.mouser.com/ds/2/54/SRF0905-32579.pdf" 290 0 20 V I C CNN
 F4 "BOURNS" 340 0 20 V I C CNN "manf"
 F5 "SRF0905-652Y" 365 0 20 V I C CNN "manf#"
@@ -573,6 +573,9 @@ F7 "652-SRF0905-652Y" 415 0 20 V I C CNN "Supplier Part No"
 F8 "http://au.mouser.com/ProductDetail/Bourns/SRF0905-652Y/?qs=stOsxiBwuZWN3ZXLreHhzg%3D%3D" 440 0 20 V I C CNN "Supplier URL"
 F9 "1.55" 465 0 20 V I C CNN "Supplier Price"
 F10 "1" 490 0 20 V I C CNN "Supplier Price Break"
+$FPLIST
+ SRF0905*
+$ENDFPLIST
 DRAW
 A -100 -70 35 -899 890 0 1 15 N -100 -105 -100 -35
 A -100 0 35 -899 890 0 1 15 N -100 -35 -100 35
@@ -596,7 +599,7 @@ ENDDEF
 DEF FT230XS-R U 0 40 Y Y 1 F N
 F0 "U" -650 750 60 H V C CNN
 F1 "FT230XS-R" 450 -750 60 H V C CNN
-F2 "" 1025 1675 60 H I C CNN
+F2 "Applidyne_SOP:SOP16P65_500X640X120L62X24N" 1025 1675 60 H I C CNN
 F3 "http://www.mouser.com/ds/2/163/DS_FT230X-5395.pdf" -25 -125 20 H I C CNN
 F4 "FTDI" -25 -175 20 H I C CNN "manf"
 F5 "FT230XS-R" -25 -200 20 H I C CNN "manf#"
@@ -605,6 +608,9 @@ F7 "895-FT230XS-R" -25 -250 20 H I C CNN "Supplier Part No"
 F8 "http://au.mouser.com/ProductDetail/FTDI/FT230XS-R/" -25 -275 20 H I C CNN "Supplier URL"
 F9 "2.80" -25 -300 20 H I C CNN "Supplier Price"
 F10 "1" 340 -150 20 V I C CNN "Supplier Price Break"
+$FPLIST
+ SOP16P65_500X640X120L62X24*
+$ENDFPLIST
 DRAW
 S -700 -650 700 650 0 1 0 f
 X TXD 1 1000 500 300 L 50 50 1 1 P
@@ -772,7 +778,7 @@ ENDDEF
 DEF MOLEX_MICROFIT_JR_RH_2x1_WAY P 0 40 Y N 1 F N
 F0 "P" 0 150 50 H V C CNN
 F1 "MOLEX_MICROFIT_JR_RH_2x1_WAY" 80 -5 35 V V C CNN
-F2 "" 115 0 20 V I C CNN
+F2 "Applidyne_Connector_Molex:Molex_MiniFit-JR-5569-02A2_2x01x4.20mm_Angled" 115 0 20 V I C CNN
 F3 "http://www.mouser.com/ds/2/276/050362457_sd-590412.pdf" 140 0 20 V I C CNN
 F4 "MOLEX" 190 0 20 V I C CNN "manf"
 F5 "50-36-2457" 215 0 20 V I C CNN "manf#"
@@ -781,6 +787,9 @@ F7 "538-50-36-2457" 265 0 20 V I C CNN "Supplier Part No"
 F8 "http://au.mouser.com/ProductDetail/Molex/50-36-2457/" 290 0 20 V I C CNN "Supplier URL"
 F9 "0.8" 315 0 20 V I C CNN "Supplier Price"
 F10 "1" 340 0 20 V I C CNN "Supplier Price Break"
+$FPLIST
+ Molex_MiniFit-JR-5569-02A2*
+$ENDFPLIST
 DRAW
 S -50 -45 10 -55 0 1 0 N
 S -50 55 10 45 0 1 0 N
@@ -795,7 +804,7 @@ ENDDEF
 DEF MOLEX_MICROFIT_JR_RH_2x2_WAY P 0 40 Y N 1 F N
 F0 "P" 0 250 50 H V C CNN
 F1 "MOLEX_MICROFIT_JR_RH_2x2_WAY" 100 0 35 V V C CNN
-F2 "" 175 0 20 V I C CNN
+F2 "Applidyne_Connector_Molex:Molex_MiniFit-JR-5569-04A2_2x02x4.20mm_Angled" 175 0 20 V I C CNN
 F3 "http://www.mouser.com/ds/2/276/0026013115_PCB_HEADERS-227840.pdf" 200 0 20 V I C CNN
 F4 "MOLEX" 250 0 20 V I C CNN "manf"
 F5 "26-01-3115" 275 0 20 V I C CNN "manf#"
@@ -804,6 +813,9 @@ F7 "538-26-01-3115" 325 0 20 V I C CNN "Supplier Part No"
 F8 "http://au.mouser.com/ProductDetail/Molex/26-01-3115/?qs=%2fha2pyFadugDpYK%2fBAu8EnNIIw97Z567UxXxDgiBIzo%3d" 350 0 20 V I C CNN "Supplier URL"
 F9 "1.47" 375 0 20 V I C CNN "Supplier Price"
 F10 "1" 400 0 20 V I C CNN "Supplier Price Break"
+$FPLIST
+ Molex_MiniFit-JR-5569-04A2*
+$ENDFPLIST
 DRAW
 S -50 -145 10 -155 0 1 0 N
 S -50 -45 10 -55 0 1 0 N
@@ -822,7 +834,7 @@ ENDDEF
 DEF MOLEX_MICROFIT_JR_RH_2x4_WAY P 0 40 Y N 1 F N
 F0 "P" 0 450 50 H V C CNN
 F1 "MOLEX_MICROFIT_JR_RH_2x4_WAY" 100 0 35 V V C CNN
-F2 "" 175 0 20 V I C CNN
+F2 "Applidyne_Connector_Molex:Molex_MiniFit-JR-5569-08A2_2x04x4.20mm_Angled" 175 0 20 V I C CNN
 F3 "http://www.mouser.com/ds/2/276/1724480008_PCB_HEADERS-704285.pdf" 200 0 20 V I C CNN
 F4 "MOLEX" 250 0 20 V I C CNN "manf"
 F5 "172448-0008" 275 0 20 V I C CNN "manf#"
@@ -831,6 +843,9 @@ F7 "538-172448-0008" 325 0 20 V I C CNN "Supplier Part No"
 F8 "http://au.mouser.com/ProductDetail/Molex/172448-0008/?qs=sGAEpiMZZMu58sUZeT0Q%2fmcYSNk2See2tTuPV1HDGjI%3d" 350 0 20 V I C CNN "Supplier URL"
 F9 "1.998" 375 0 20 V I C CNN "Supplier Price"
 F10 "1" 400 0 20 V I C CNN "Supplier Price Break"
+$FPLIST
+ Molex_MiniFit-JR-5569-08A2*
+$ENDFPLIST
 DRAW
 S -50 -345 10 -355 0 1 0 N
 S -50 -245 10 -255 0 1 0 N
