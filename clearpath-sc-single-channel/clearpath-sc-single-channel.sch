@@ -6,6 +6,7 @@ LIBS:appli_capacitor
 LIBS:appli_connector
 LIBS:appli_connector_molex
 LIBS:appli_connector_jst
+LIBS:appli_connector_wurth
 LIBS:appli_crystal
 LIBS:appli_device
 LIBS:appli_fiducial
@@ -1612,9 +1613,9 @@ Wire Wire Line
 	2100 3600 2400 3600
 Connection ~ 2250 3600
 Wire Wire Line
-	2700 3600 2800 3600
+	2800 3600 2700 3600
 Wire Wire Line
-	2800 3600 2800 3150
+	2800 3050 2800 3600
 Connection ~ 2800 3150
 Wire Wire Line
 	1250 3150 1850 3150
@@ -1731,9 +1732,9 @@ Wire Wire Line
 	4800 3600 5100 3600
 Connection ~ 4950 3600
 Wire Wire Line
-	5400 3600 5500 3600
+	5500 3600 5400 3600
 Wire Wire Line
-	5500 3600 5500 3150
+	5500 3050 5500 3600
 Connection ~ 5500 3150
 Wire Wire Line
 	3950 3150 4550 3150
@@ -2127,5 +2128,72 @@ F 9 "1.47" V 6825 9100 20  0001 C CNN "Supplier Price"
 F 10 "1" V 6850 9100 20  0001 C CNN "Supplier Price Break"
 	1    6450 9100
 	-1   0    0    -1  
+$EndComp
+$Comp
+L CLIP_HOOK_RED TEST2
+U 1 1 59CC6BA9
+P 5500 3050
+F 0 "TEST2" V 5431 3228 39  0000 L CNN
+F 1 "CLIP_HOOK_RED" H 5550 3050 39  0001 L TNN
+F 2 "Applidyne_Test:KEYSTONE_5000" H 5550 3000 39  0001 L TNN
+F 3 "http://www.farnell.com/datasheets/1703983.pdf" H 5550 2850 39  0001 L BNN
+F 4 "KEYSTONE" H 5550 2950 39  0001 L TNN "manf"
+F 5 "5000" H 5550 2800 39  0001 L BNN "manf#"
+F 6 "Element14" H 5550 2750 39  0001 L BNN "Supplier"
+F 7 "1463076" H 5550 2700 39  0001 L BNN "Supplier Part No"
+F 8 "http://au.element14.com/keystone/5000/test-point-pcb-through-hole/dp/1463076" H 5550 2650 39  0001 L BNN "Supplier URL"
+F 9 "0.23" H 5550 2600 39  0001 L BNN "Supplier Price"
+F 10 "100" H 5550 2550 39  0001 L BNN "Suppier Price Break"
+	1    5500 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L CLIP_HOOK_RED TEST1
+U 1 1 59CC7BF6
+P 2800 3050
+F 0 "TEST1" V 2731 3228 39  0000 L CNN
+F 1 "CLIP_HOOK_RED" H 2850 3050 39  0001 L TNN
+F 2 "Applidyne_Test:KEYSTONE_5000" H 2850 3000 39  0001 L TNN
+F 3 "http://www.farnell.com/datasheets/1703983.pdf" H 2850 2850 39  0001 L BNN
+F 4 "KEYSTONE" H 2850 2950 39  0001 L TNN "manf"
+F 5 "5000" H 2850 2800 39  0001 L BNN "manf#"
+F 6 "Element14" H 2850 2750 39  0001 L BNN "Supplier"
+F 7 "1463076" H 2850 2700 39  0001 L BNN "Supplier Part No"
+F 8 "http://au.element14.com/keystone/5000/test-point-pcb-through-hole/dp/1463076" H 2850 2650 39  0001 L BNN "Supplier URL"
+F 9 "0.23" H 2850 2600 39  0001 L BNN "Supplier Price"
+F 10 "100" H 2850 2550 39  0001 L BNN "Suppier Price Break"
+	1    2800 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L CLIP_HOOK_BLACK TEST3
+U 1 1 59CC9035
+P 6450 3150
+F 0 "TEST3" V 6381 3328 39  0000 L CNN
+F 1 "CLIP_HOOK_BLACK" H 6500 3150 39  0001 L TNN
+F 2 "Applidyne_Test:KEYSTONE_5001" H 6500 3100 39  0001 L TNN
+F 3 "http://www.farnell.com/datasheets/1703983.pdf" H 6500 2950 39  0001 L BNN
+F 4 "KEYSTONE" H 6500 3050 39  0001 L TNN "manf"
+F 5 "5001" H 6500 2900 39  0001 L BNN "manf#"
+F 6 "Element14" H 6500 2850 39  0001 L BNN "Supplier"
+F 7 "2301278" H 6500 2800 39  0001 L BNN "Supplier Part No"
+F 8 "http://au.element14.com/keystone/5001/test-point-pcb-through-hole/dp/2301278" H 6500 2750 39  0001 L BNN "Supplier URL"
+F 9 "0.218" H 6500 2700 39  0001 L BNN "Supplier Price"
+F 10 "100" H 6500 2650 39  0001 L BNN "Suppier Price Break"
+	1    6450 3150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6450 3150 6450 3700
+$Comp
+L GND #PWR048
+U 1 1 59CC9E4F
+P 6450 3700
+F 0 "#PWR048" H 6450 3450 50  0001 C CNN
+F 1 "GND" H 6455 3527 50  0000 C CNN
+F 2 "" H 6450 3700 60  0000 C CNN
+F 3 "" H 6450 3700 60  0000 C CNN
+	1    6450 3700
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
