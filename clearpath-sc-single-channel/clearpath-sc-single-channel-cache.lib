@@ -594,13 +594,96 @@ X ~ 4 -100 -150 45 U 30 30 1 1 P
 ENDDRAW
 ENDDEF
 #
+# CLIP_HOOK_BLACK
+#
+DEF ~CLIP_HOOK_BLACK TEST 0 0 N N 1 F N
+F0 "TEST" -200 200 39 H V C BNN
+F1 "CLIP_HOOK_BLACK" 50 0 39 H I L TNN
+F2 "Applidyne_Test:KEYSTONE_5001" 50 -50 39 H I L TNN
+F3 "http://www.farnell.com/datasheets/1703983.pdf" 50 -200 39 H I L BNN
+F4 "KEYSTONE" 50 -100 39 H I L TNN "manf"
+F5 "5001" 50 -250 39 H I L BNN "manf#"
+F6 "Element14" 50 -300 39 H I L BNN "Supplier"
+F7 "2301278" 50 -350 39 H I L BNN "Supplier Part No"
+F8 "http://au.element14.com/keystone/5001/test-point-pcb-through-hole/dp/2301278" 50 -400 39 H I L BNN "Supplier URL"
+F9 "0.218" 50 -450 39 H I L BNN "Supplier Price"
+F10 "100" 50 -500 39 H I L BNN "Suppier Price Break"
+$FPLIST
+ KEYSTONE_5*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 0 0 -50 50 N
+P 6 0 1 0 -50 50 -100 50 -150 100 -100 150 -50 100 -50 50 N
+X PAD 1 0 0 0 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# CLIP_HOOK_RED
+#
+DEF ~CLIP_HOOK_RED TEST 0 0 N N 1 F N
+F0 "TEST" -200 200 39 H V C BNN
+F1 "CLIP_HOOK_RED" 50 0 39 H I L TNN
+F2 "Applidyne_Test:KEYSTONE_5000" 50 -50 39 H I L TNN
+F3 "http://www.farnell.com/datasheets/1703983.pdf" 50 -200 39 H I L BNN
+F4 "KEYSTONE" 50 -100 39 H I L TNN "manf"
+F5 "5000" 50 -250 39 H I L BNN "manf#"
+F6 "Element14" 50 -300 39 H I L BNN "Supplier"
+F7 "1463076" 50 -350 39 H I L BNN "Supplier Part No"
+F8 "http://au.element14.com/keystone/5000/test-point-pcb-through-hole/dp/1463076" 50 -400 39 H I L BNN "Supplier URL"
+F9 "0.23" 50 -450 39 H I L BNN "Supplier Price"
+F10 "100" 50 -500 39 H I L BNN "Suppier Price Break"
+$FPLIST
+ KEYSTONE_5*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 0 0 -50 50 N
+P 6 0 1 0 -50 50 -100 50 -150 100 -100 150 -50 100 -50 50 N
+X PAD 1 0 0 0 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# CONN_01X08
+#
+DEF CONN_01X08 P 0 40 Y N 1 F N
+F0 "P" 0 450 50 H V C CNN
+F1 "CONN_01X08" 100 0 50 V V C CNN
+F2 "Applidyne_Connector_Wurth:61300811121" 175 0 50 V I C CNN
+F3 "http://www.farnell.com/cad/2124416.pdf" 250 0 50 V I C CNN
+F4 "WURTH" 0 -450 60 H I C CNN "manf"
+F5 "61300811121" 0 -550 60 H I C CNN "manf#"
+F6 "Element 14" 0 -650 60 H I C CNN "Supplier"
+F7 "2356160" 0 -725 60 H I C CNN "Supplier Part No"
+F8 "http://au.element14.com/wurth-elektronik/61300811121/header-2-54mm-pin-tht-vertical/dp/2356160" 0 -825 60 H I C CNN "Supplier URL"
+F9 "0.358" 0 -925 60 H I C CNN "Supplier Price"
+F10 "1" 0 -1025 60 H I C CNN "Supplier Price Break"
+DRAW
+S -50 -400 50 400 0 1 0 N
+S -50 -345 10 -355 0 1 0 N
+S -50 -245 10 -255 0 1 0 N
+S -50 -145 10 -155 0 1 0 N
+S -50 -45 10 -55 0 1 0 N
+S -50 55 10 45 0 1 0 N
+S -50 155 10 145 0 1 0 N
+S -50 255 10 245 0 1 0 N
+S -50 355 10 345 0 1 0 N
+X P1 1 -200 350 150 R 50 50 1 1 P
+X P2 2 -200 250 150 R 50 50 1 1 P
+X P3 3 -200 150 150 R 50 50 1 1 P
+X P4 4 -200 50 150 R 50 50 1 1 P
+X P5 5 -200 -50 150 R 50 50 1 1 P
+X P6 6 -200 -150 150 R 50 50 1 1 P
+X P7 7 -200 -250 150 R 50 50 1 1 P
+X P8 8 -200 -350 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # FT230XS-R
 #
 DEF FT230XS-R U 0 40 Y Y 1 F N
 F0 "U" -650 750 60 H V C CNN
 F1 "FT230XS-R" 450 -750 60 H V C CNN
-F2 "Applidyne_SOP:SOP16P65_500X640X120L62X24N" 1025 1675 60 H I C CNN
-F3 "http://www.mouser.com/ds/2/163/DS_FT230X-5395.pdf" -25 -125 20 H I C CNN
+F2 "Applidyne_SOP:SOP16P65_500X640X120L62X24N" -25 -125 20 H I C CNN
+F3 "http://www.mouser.com/ds/2/163/DS_FT230X-5395.pdf" -25 -150 20 H I C CNN
 F4 "FTDI" -25 -175 20 H I C CNN "manf"
 F5 "FT230XS-R" -25 -200 20 H I C CNN "manf#"
 F6 "Mouser" -25 -225 20 H I C CNN "Supplier"

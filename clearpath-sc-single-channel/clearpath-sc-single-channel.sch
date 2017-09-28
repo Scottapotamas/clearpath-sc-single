@@ -15,6 +15,7 @@ LIBS:appli_fuse
 LIBS:appli_inductor
 LIBS:appli_linear
 LIBS:appli_link
+LIBS:appli_logic_devices
 LIBS:appli_logo
 LIBS:appli_memory
 LIBS:appli_mount
@@ -2196,4 +2197,108 @@ F 3 "" H 6450 3700 60  0000 C CNN
 	1    6450 3700
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2700 10900 3250 10900
+Wire Wire Line
+	2700 10700 3250 10700
+Wire Wire Line
+	2700 10600 3250 10600
+Wire Wire Line
+	2700 10500 3250 10500
+$Comp
+L GND #PWR050
+U 1 1 59CC5C46
+P 3250 10900
+F 0 "#PWR050" H 3250 10650 50  0001 C CNN
+F 1 "GND" V 3255 10772 50  0000 R CNN
+F 2 "" H 3250 10900 60  0000 C CNN
+F 3 "" H 3250 10900 60  0000 C CNN
+	1    3250 10900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +POWER #PWR049
+U 1 1 59CC5DD0
+P 3250 10700
+F 0 "#PWR049" H 3250 10650 20  0001 C CNN
+F 1 "+POWER" V 3254 10808 30  0000 L CNN
+F 2 "" H 3250 10700 60  0000 C CNN
+F 3 "" H 3250 10700 60  0000 C CNN
+	1    3250 10700
+	0    1    1    0   
+$EndComp
+Text GLabel 3250 10500 2    60   Input ~ 0
+SERIAL_RX
+Text GLabel 3250 10600 2    60   Output ~ 0
+SERIAL_TX
+$Comp
+L CONN_01X08 P5
+U 1 1 59CC67D2
+P 2500 10550
+F 0 "P5" H 2578 10591 50  0000 L CNN
+F 1 "CONN_01X08" H 2578 10500 50  0000 L CNN
+F 2 "Applidyne_Connector_Wurth:61300811121" V 2675 10550 50  0001 C CNN
+F 3 "http://www.farnell.com/cad/2124416.pdf" V 2750 10550 50  0001 C CNN
+F 4 "WURTH" H 2500 10100 60  0001 C CNN "manf"
+F 5 "61300811121" H 2500 10000 60  0001 C CNN "manf#"
+F 6 "Element 14" H 2500 9900 60  0001 C CNN "Supplier"
+F 7 "2356160" H 2500 9825 60  0001 C CNN "Supplier Part No"
+F 8 "http://au.element14.com/wurth-elektronik/61300811121/header-2-54mm-pin-tht-vertical/dp/2356160" H 2500 9725 60  0001 C CNN "Supplier URL"
+F 9 "0.358" H 2500 9625 60  0001 C CNN "Supplier Price"
+F 10 "1" H 2500 9525 60  0001 C CNN "Supplier Price Break"
+	1    2500 10550
+	-1   0    0    1   
+$EndComp
+NoConn ~ 2700 10800
+NoConn ~ 2700 10400
+NoConn ~ 2700 10300
+NoConn ~ 2700 10200
+Text Notes 2000 10000 0    118  ~ 24
+Standard AUX Connection
+Text Notes 2950 10300 0    60   ~ 0
+Provides board to board connection for \nuse with this module and others on a backplane.
+$Comp
+L +5V #PWR051
+U 1 1 59CC88B8
+P 8600 3550
+F 0 "#PWR051" H 8600 3400 50  0001 C CNN
+F 1 "+5V" H 8615 3723 50  0000 C CNN
+F 2 "" H 8600 3550 60  0000 C CNN
+F 3 "" H 8600 3550 60  0000 C CNN
+	1    8600 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR052
+U 1 1 59CC893F
+P 8600 3950
+F 0 "#PWR052" H 8600 3700 50  0001 C CNN
+F 1 "GND" H 8605 3777 50  0000 C CNN
+F 2 "" H 8600 3950 60  0000 C CNN
+F 3 "" H 8600 3950 60  0000 C CNN
+	1    8600 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 100NF_X7R_1608M C12
+U 1 1 59CC8AC5
+P 8600 3650
+F 0 "C12" H 8678 3585 50  0000 L CNN
+F 1 "100NF_X7R_1608M" H 8678 3505 35  0000 L CNN
+F 2 "Applidyne_Capacitor:CAPC1608X90N" V 8715 3550 20  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1732728.pdf" V 8740 3550 20  0001 C CNN
+F 4 "KEMET" V 8790 3550 20  0001 C CNN "manf"
+F 5 "C0603C104K5RACAUTO" V 8815 3550 20  0001 C CNN "manf#"
+F 6 "Element14" V 8840 3550 20  0001 C CNN "Supplier"
+F 7 "2070398" V 8865 3550 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.element14.com/kemet/c0603c104k5racauto/cap-mlcc-x7r-100nf-50v-0603/dp/2070398" V 8890 3550 20  0001 C CNN "Supplier URL"
+F 9 "0.011" V 8915 3550 20  0001 C CNN "Supplier Price"
+F 10 "1" V 8940 3550 20  0001 C CNN "Supplier Price Break"
+	1    8600 3650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 3550 8600 3650
+Wire Wire Line
+	8600 3850 8600 3950
 $EndSCHEMATC
