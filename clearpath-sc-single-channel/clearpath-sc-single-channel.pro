@@ -1,10 +1,6 @@
-update=Thu 28 Sep 2017 10:12:22 ACST
+update=28/09/2017 9:02:45 PM
 version=1
 last_client=kicad
-[general]
-version=1
-RootSch=
-BoardNm=
 [pcbnew]
 version=1
 LastNetListRead=
@@ -27,9 +23,19 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=/home/scott/projects/clearpath-sc-single/clearpath-sc-single-channel/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
 [eeschema]
 version=1
-LibDir=/home/scott/projects/ECAD/kicad-library
+LibDir=F:/Projects/ECAD/KiCad/library
 [eeschema/libraries]
 LibName1=appli_analog_devices
 LibName2=appli_atmel
@@ -69,13 +75,5 @@ LibName35=appli_ublox
 LibName36=appli_uC
 LibName37=appli_usb
 LibName38=appli_wireless
-[schematic_editor]
+[general]
 version=1
-PageLayoutDescrFile=
-PlotDirectoryName=/home/scott/projects/clearpath-sc-single/clearpath-sc-single-channel/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=60
-ERC_TestSimilarLabels=1
