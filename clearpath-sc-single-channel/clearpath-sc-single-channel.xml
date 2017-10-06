@@ -1,0 +1,2212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/scott/projects/clearpath-sc-single/clearpath-sc-single-channel/clearpath-sc-single-channel.sch</source>
+    <date>Fri 06 Oct 2017 14:04:01 ACDT</date>
+    <tool>Eeschema no-vcs-found</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Single Channel Clearpath SC IO Board</title>
+        <company>Scott Rapson</company>
+        <rev>1.0</rev>
+        <date>2017-09-25</date>
+        <source>clearpath-sc-single-channel.sch</source>
+        <comment number="1" value="Use USB with sFoundation software or ClearView to drive"/>
+        <comment number="2" value="Single Clearpath-SC Connection"/>
+        <comment number="3" value="Single Channel Variant of Teknic's SC4-Hub"/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J?1">
+      <value>USB_MICRO_B_SMD_2</value>
+      <footprint>Applidyne_USB:MOLEX_47346-0001</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2214755.pdf</datasheet>
+      <fields>
+        <field name="manf">Molex</field>
+        <field name="manf#">47346-0001</field>
+        <field name="Supplier">Element 14</field>
+        <field name="Supplier Part No">1568026</field>
+        <field name="Supplier URL">http://au.element14.com/molex/47346-0001/micro-usb-2-0-type-b-receptacle/dp/1568026</field>
+        <field name="Supplier Price">1.5</field>
+        <field name="Supplier Price Break">10</field>
+      </fields>
+      <libsource lib="appli_usb" part="USB_MICRO_B_SMD_2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C794D2</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>MMBT5401</value>
+      <footprint>Applidyne_SOT:SOT95P240X110-3L16N</footprint>
+      <datasheet>http://www.mouser.com/ds/2/308/MMBT5401-1121136.pdf</datasheet>
+      <fields>
+        <field name="manf">ON SEMI</field>
+        <field name="manf#">MMBT5401</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part No">512-MMBT5401</field>
+        <field name="Supplier URL">http://au.mouser.com/ProductDetail/Fairchild-Semiconductor/MMBT5401/?qs=UMEuL5FsraBsdYafUfvRdA%3D%3D</field>
+        <field name="Supplier Price">0.243</field>
+        <field name="Supplier Price Break">10</field>
+      </fields>
+      <libsource lib="appli_transistor" part="MMBT5401"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C8360C</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>MMBTA06</value>
+      <footprint>Applidyne_SOT:SOT95P240X110-3L16N</footprint>
+      <datasheet>http://www.mouser.com/ds/2/308/MMBTA06-1121073.pdf</datasheet>
+      <fields>
+        <field name="manf">ON SEMI</field>
+        <field name="manf#">MMBTA06</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part No">512-MMBTA06</field>
+        <field name="Supplier URL">http://au.mouser.com/Search/ProductDetail.aspx?qs=UMEuL5FsraDNITJVR5yrvg%3D%3D</field>
+        <field name="Supplier Price">0.34</field>
+        <field name="Supplier Price Break">10</field>
+      </fields>
+      <libsource lib="appli_transistor" part="MMBTA06"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C83864</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1K00_1608M</value>
+      <footprint>Applidyne_Resistor:RESC1608X50N</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1723233.pdf</datasheet>
+      <fields>
+        <field name="manf">MULTICOMP</field>
+        <field name="manf#">MCHP03W8F1001T5E</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">1576283</field>
+        <field name="Supplier URL">http://au.element14.com/multicomp/mchp03w8f1001t5e/resistor-thick-film-1k-0-125w/dp/1576283</field>
+        <field name="Supplier Price">0.011</field>
+        <field name="Supplier Price Break">50+</field>
+      </fields>
+      <libsource lib="appli_resistor" part="1K00_1608M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C83C80</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>93K1_1608M</value>
+      <footprint>Applidyne_Resistor:RESC1608X50N</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2046716.pdf</datasheet>
+      <fields>
+        <field name="manf">VISHAY</field>
+        <field name="manf#">CRCW060393K1FKEA</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">1152169</field>
+        <field name="Supplier URL">http://au.element14.com/vishay/crcw060393k1fkea/res-thick-film-93k1-1-0-1w-0603/dp/1152169</field>
+        <field name="Supplier Price">0.085</field>
+        <field name="Supplier Price Break">10</field>
+      </fields>
+      <libsource lib="appli_resistor" part="93K1_1608M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C83ED6</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>4K7_1608M</value>
+      <footprint>Applidyne_Resistor:RESC1608X50N</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1788326.pdf</datasheet>
+      <fields>
+        <field name="manf">MULTICOMP</field>
+        <field name="manf#">MC0063W060354K7</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">9332154</field>
+        <field name="Supplier URL">http://au.element14.com/multicomp/mc0063w060354k7/res-thick-film-4k7-5-0-063w-0603/dp/9332154</field>
+        <field name="Supplier Price">0.024</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <libsource lib="appli_resistor" part="4K7_1608M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C842F9</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>33NF_X7R_1608M</value>
+      <footprint>Applidyne_Capacitor:CAPC1608X90N</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1633156.pdf</datasheet>
+      <fields>
+        <field name="manf">KEMET</field>
+        <field name="manf#">C0603C333K5RACAUTO</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">2070421</field>
+        <field name="Supplier URL">http://au.element14.com/kemet/c0603c333k5racauto/cap-mlcc-x7r-33nf-50v-0603/dp/2070421</field>
+        <field name="Supplier Price">0.311</field>
+        <field name="Supplier Price Break">10</field>
+      </fields>
+      <libsource lib="appli_capacitor" part="33NF_X7R_1608M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C84553</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>560R_1608M</value>
+      <footprint>Applidyne_Resistor:RESC1608X50N</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1280654.pdf</datasheet>
+      <fields>
+        <field name="manf">MULTICOMP</field>
+        <field name="manf#">MC0201L6F5600SE</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">1838056</field>
+        <field name="Supplier URL">http://au.element14.com/multicomp/mc0201l6f5600se/res-thick-film-560r-1-0-05w-0201/dp/1838056</field>
+        <field name="Supplier Price">0.003</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <libsource lib="appli_resistor" part="560R_1608M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C84A04</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100NF_X7R_1608M</value>
+      <footprint>Applidyne_Capacitor:CAPC1608X90N</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1732728.pdf</datasheet>
+      <fields>
+        <field name="manf">KEMET</field>
+        <field name="manf#">C0603C104K5RACAUTO</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">2070398</field>
+        <field name="Supplier URL">http://au.element14.com/kemet/c0603c104k5racauto/cap-mlcc-x7r-100nf-50v-0603/dp/2070398</field>
+        <field name="Supplier Price">0.011</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <libsource lib="appli_capacitor" part="100NF_X7R_1608M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C84CF3</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>62R_1608M</value>
+      <footprint>Applidyne_Resistor:RESC1608X50N</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2140393.pdf</datasheet>
+      <fields>
+        <field name="manf">MULTICOMP</field>
+        <field name="manf#">MC00625W0402162R</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">1358010</field>
+        <field name="Supplier URL">http://au.element14.com/multicomp/mc00625w0402162r/res-thick-film-62r-1-0-0625w-0402/dp/1358010</field>
+        <field name="Supplier Price">0.008</field>
+        <field name="Supplier Price Break">50</field>
+      </fields>
+      <libsource lib="appli_resistor" part="62R_1608M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C850CD</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>62R_1608M</value>
+      <footprint>Applidyne_Resistor:RESC1608X50N</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2140393.pdf</datasheet>
+      <fields>
+        <field name="manf">MULTICOMP</field>
+        <field name="manf#">MC00625W0402162R</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">1358010</field>
+        <field name="Supplier URL">http://au.element14.com/multicomp/mc00625w0402162r/res-thick-film-62r-1-0-0625w-0402/dp/1358010</field>
+        <field name="Supplier Price">0.008</field>
+        <field name="Supplier Price Break">50</field>
+      </fields>
+      <libsource lib="appli_resistor" part="62R_1608M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C854DE</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>LED_GREEN_1608M</value>
+      <footprint>Applidyne_LED:LEDC1608X80L40N</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1720200.pdf</datasheet>
+      <fields>
+        <field name="manf">DIALIGHT</field>
+        <field name="manf#">5988070107F</field>
+        <field name="Supplier">Element 14</field>
+        <field name="Supplier Part No">1465991</field>
+        <field name="Supplier URL">http://au.element14.com/dialight/5988070107f/led-0603-green-20mcd-566nm/dp/1465991</field>
+        <field name="Supplier Price">0.4</field>
+        <field name="Supplier Price Break">10</field>
+      </fields>
+      <libsource lib="appli_device" part="LED_GREEN_1608M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C859F1</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>390R_1608M</value>
+      <footprint>Applidyne_Resistor:RESC1608X50N</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1788326.pdf</datasheet>
+      <fields>
+        <field name="manf">MULTICOMP</field>
+        <field name="manf#">MC0063W06031390R</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">9331131</field>
+        <field name="Supplier URL">http://au.element14.com/multicomp/mc0063w06031390r/resistor-390r-0-063w-1-0603/dp/9331131</field>
+        <field name="Supplier Price">0.00141</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <libsource lib="appli_resistor" part="390R_1608M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C85F4F</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100NF_X7R_1608M</value>
+      <footprint>Applidyne_Capacitor:CAPC1608X90N</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1732728.pdf</datasheet>
+      <fields>
+        <field name="manf">KEMET</field>
+        <field name="manf#">C0603C104K5RACAUTO</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">2070398</field>
+        <field name="Supplier URL">http://au.element14.com/kemet/c0603c104k5racauto/cap-mlcc-x7r-100nf-50v-0603/dp/2070398</field>
+        <field name="Supplier Price">0.011</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <libsource lib="appli_capacitor" part="100NF_X7R_1608M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C86227</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>BAS21_SOT23</value>
+      <footprint>Applidyne_SOT:SOT95P240X110-3L16N</footprint>
+      <datasheet>http://www.mouser.com/ds/2/308/BAS21-1118533.pdf</datasheet>
+      <fields>
+        <field name="manf">ON SEMICONDUCTOR</field>
+        <field name="manf#">BAS21</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part No">512-BAS21</field>
+        <field name="Supplier URL">http://au.mouser.com/Search/ProductDetail.aspx?qs=GXJjH%252bIVz3MgJ%252bf2%252bjymzQ%3D%3D</field>
+        <field name="Supplier Price">0.228</field>
+        <field name="Supplier Price Break">10</field>
+      </fields>
+      <libsource lib="appli_device" part="BAS21_SOT23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C866B0</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>SN74HC14PWR</value>
+      <footprint>Applidyne_SOP:SOP14P65_500X640X120L62X24N</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74hc14</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part No">595-SN74HC14PWR</field>
+        <field name="Supplier Price">0.456</field>
+        <field name="Supplier Price Break">10</field>
+        <field name="Supplier URL">http://au.mouser.com/ProductDetail/Texas-Instruments/SN74HC14PWR/?qs=sGAEpiMZZMutVWjHE%2fYQw9XSWsf7N%2fuyBxLji%2fG2WzM%3d</field>
+        <field name="manf">TI</field>
+        <field name="manf#">SN74HC14PWR</field>
+      </fields>
+      <libsource lib="appli_special" part="SN74HC14PWR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C88C67</tstamp>
+    </comp>
+    <comp ref="MNT1">
+      <value>MNT_M3_PLATED</value>
+      <footprint>Applidyne_Mount:MTGP650H330</footprint>
+      <libsource lib="appli_mount" part="MNT_M3_PLATED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C95D44</tstamp>
+    </comp>
+    <comp ref="MNT2">
+      <value>MNT_M3_PLATED</value>
+      <footprint>Applidyne_Mount:MTGP650H330</footprint>
+      <libsource lib="appli_mount" part="MNT_M3_PLATED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C95F38</tstamp>
+    </comp>
+    <comp ref="MNT3">
+      <value>MNT_M3_PLATED</value>
+      <footprint>Applidyne_Mount:MTGP650H330</footprint>
+      <libsource lib="appli_mount" part="MNT_M3_PLATED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C95FA4</tstamp>
+    </comp>
+    <comp ref="MNT4">
+      <value>MNT_M3_PLATED</value>
+      <footprint>Applidyne_Mount:MTGP650H330</footprint>
+      <libsource lib="appli_mount" part="MNT_M3_PLATED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C96034</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>USBLC6</value>
+      <footprint>Applidyne_SOT:SOT95P280X145-6L50N</footprint>
+      <datasheet>http://docs-asia.electrocomponents.com/webdocs/07bd/0900766b807bd47e.pdf</datasheet>
+      <fields>
+        <field name="manf">ST</field>
+        <field name="manf#">USBLC6-2SC6</field>
+        <field name="Supplier">RS Online</field>
+        <field name="Supplier Part No"> 624-7693</field>
+        <field name="Supplier URL">http://au.rs-online.com/web/p/tvs-diodes/6247693/</field>
+        <field name="Supplier Price">0.59</field>
+        <field name="Supplier Price Break">10</field>
+      </fields>
+      <libsource lib="appli_special" part="USBLC6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C98211</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>500mA_1210L_PTC</value>
+      <footprint>Applidyne_Fuse:FUSC3225X85L50N</footprint>
+      <datasheet>http://docs-asia.electrocomponents.com/webdocs/1420/0900766b8142082b.pdf</datasheet>
+      <fields>
+        <field name="manf">LittelFuse</field>
+        <field name="manf#"> 1210L050YR</field>
+        <field name="Supplier">RS Online</field>
+        <field name="Supplier Part No">787-4202</field>
+        <field name="Supplier URL">http://au.rs-online.com/web/p/resettable-surface-mount-fuses/7874202/</field>
+        <field name="Supplier Price">0.486</field>
+        <field name="Supplier Price Break">10</field>
+      </fields>
+      <libsource lib="appli_fuse" part="500mA_1210L_PTC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C98ED3</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED_GREEN_1608M</value>
+      <footprint>Applidyne_LED:LEDC1608X80L40N</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1720200.pdf</datasheet>
+      <fields>
+        <field name="manf">DIALIGHT</field>
+        <field name="manf#">5988070107F</field>
+        <field name="Supplier">Element 14</field>
+        <field name="Supplier Part No">1465991</field>
+        <field name="Supplier URL">http://au.element14.com/dialight/5988070107f/led-0603-green-20mcd-566nm/dp/1465991</field>
+        <field name="Supplier Price">0.4</field>
+        <field name="Supplier Price Break">10</field>
+      </fields>
+      <libsource lib="appli_device" part="LED_GREEN_1608M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C9E8D0</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>2K40_1608M</value>
+      <footprint>Applidyne_Resistor:RESC1608X50N</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1788326.pdf</datasheet>
+      <fields>
+        <field name="manf">MULTICOMP</field>
+        <field name="manf#">MC0063W060312K4</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">9330879</field>
+        <field name="Supplier URL">http://au.element14.com/multicomp/mc0063w060312k4/resistor-2k4-0-063w-1-0603/dp/9330879</field>
+        <field name="Supplier Price">0.0011</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <libsource lib="appli_resistor" part="2K40_1608M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C9F090</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED_GREEN_1608M</value>
+      <footprint>Applidyne_LED:LEDC1608X80L40N</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1720200.pdf</datasheet>
+      <fields>
+        <field name="manf">DIALIGHT</field>
+        <field name="manf#">5988070107F</field>
+        <field name="Supplier">Element 14</field>
+        <field name="Supplier Part No">1465991</field>
+        <field name="Supplier URL">http://au.element14.com/dialight/5988070107f/led-0603-green-20mcd-566nm/dp/1465991</field>
+        <field name="Supplier Price">0.4</field>
+        <field name="Supplier Price Break">10</field>
+      </fields>
+      <libsource lib="appli_device" part="LED_GREEN_1608M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59CA0265</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>2K40_1608M</value>
+      <footprint>Applidyne_Resistor:RESC1608X50N</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1788326.pdf</datasheet>
+      <fields>
+        <field name="manf">MULTICOMP</field>
+        <field name="manf#">MC0063W060312K4</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">9330879</field>
+        <field name="Supplier URL">http://au.element14.com/multicomp/mc0063w060312k4/resistor-2k4-0-063w-1-0603/dp/9330879</field>
+        <field name="Supplier Price">0.0011</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <libsource lib="appli_resistor" part="2K40_1608M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59CA027C</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>BAS21_SOT23</value>
+      <footprint>Applidyne_SOT:SOT95P240X110-3L16N</footprint>
+      <datasheet>http://www.mouser.com/ds/2/308/BAS21-1118533.pdf</datasheet>
+      <fields>
+        <field name="manf">ON SEMICONDUCTOR</field>
+        <field name="manf#">BAS21</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part No">512-BAS21</field>
+        <field name="Supplier URL">http://au.mouser.com/Search/ProductDetail.aspx?qs=GXJjH%252bIVz3MgJ%252bf2%252bjymzQ%3D%3D</field>
+        <field name="Supplier Price">0.228</field>
+        <field name="Supplier Price Break">10</field>
+      </fields>
+      <libsource lib="appli_device" part="BAS21_SOT23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59CA35C3</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>BAS21_SOT23</value>
+      <footprint>Applidyne_SOT:SOT95P240X110-3L16N</footprint>
+      <datasheet>http://www.mouser.com/ds/2/308/BAS21-1118533.pdf</datasheet>
+      <fields>
+        <field name="manf">ON SEMICONDUCTOR</field>
+        <field name="manf#">BAS21</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part No">512-BAS21</field>
+        <field name="Supplier URL">http://au.mouser.com/Search/ProductDetail.aspx?qs=GXJjH%252bIVz3MgJ%252bf2%252bjymzQ%3D%3D</field>
+        <field name="Supplier Price">0.228</field>
+        <field name="Supplier Price Break">10</field>
+      </fields>
+      <libsource lib="appli_device" part="BAS21_SOT23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59CA38E1</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100NF_X7R_1608M</value>
+      <footprint>Applidyne_Capacitor:CAPC1608X90N</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1732728.pdf</datasheet>
+      <fields>
+        <field name="manf">KEMET</field>
+        <field name="manf#">C0603C104K5RACAUTO</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">2070398</field>
+        <field name="Supplier URL">http://au.element14.com/kemet/c0603c104k5racauto/cap-mlcc-x7r-100nf-50v-0603/dp/2070398</field>
+        <field name="Supplier Price">0.011</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <libsource lib="appli_capacitor" part="100NF_X7R_1608M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C8A29E</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>22R_1608M</value>
+      <footprint>Applidyne_Resistor:RESC1608X50N</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1788326.pdf</datasheet>
+      <fields>
+        <field name="manf">MULTICOMP</field>
+        <field name="manf#">MC0063W060314R22</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">2141539</field>
+        <field name="Supplier URL">http://au.element14.com/multicomp/mc0063w060314r22/res-thick-film-4r22-1-0-063w-0603/dp/2141539</field>
+        <field name="Supplier Price">0.015</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <libsource lib="appli_resistor" part="22R_1608M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C8B797</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>22R_1608M</value>
+      <footprint>Applidyne_Resistor:RESC1608X50N</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1788326.pdf</datasheet>
+      <fields>
+        <field name="manf">MULTICOMP</field>
+        <field name="manf#">MC0063W060314R22</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">2141539</field>
+        <field name="Supplier URL">http://au.element14.com/multicomp/mc0063w060314r22/res-thick-film-4r22-1-0-063w-0603/dp/2141539</field>
+        <field name="Supplier Price">0.015</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <libsource lib="appli_resistor" part="22R_1608M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C8B891</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100NF_X7R_1608M</value>
+      <footprint>Applidyne_Capacitor:CAPC1608X90N</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1732728.pdf</datasheet>
+      <fields>
+        <field name="manf">KEMET</field>
+        <field name="manf#">C0603C104K5RACAUTO</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">2070398</field>
+        <field name="Supplier URL">http://au.element14.com/kemet/c0603c104k5racauto/cap-mlcc-x7r-100nf-50v-0603/dp/2070398</field>
+        <field name="Supplier Price">0.011</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <libsource lib="appli_capacitor" part="100NF_X7R_1608M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C8D4FA</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>470K_1608M</value>
+      <footprint>Applidyne_Resistor:RESC1608X50N</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1911175.pdf</datasheet>
+      <fields>
+        <field name="manf">PANASONIC</field>
+        <field name="manf#">ERJ3EKF4703V</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">2303289</field>
+        <field name="Supplier URL">http://au.element14.com/panasonic-electronic-components/erj3ekf4703v/res-thick-film-470k-1-0-1w-0603/dp/2303289</field>
+        <field name="Supplier Price">0.009</field>
+        <field name="Supplier Price Break">50</field>
+      </fields>
+      <libsource lib="appli_resistor" part="470K_1608M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C910C2</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>768R_1608M</value>
+      <footprint>Applidyne_Resistor:RESC1608X50N</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1911175.pdf</datasheet>
+      <fields>
+        <field name="manf">PANASONIC</field>
+        <field name="manf#">ERJ3EKF7680V</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">2303134</field>
+        <field name="Supplier URL">http://au.element14.com/panasonic-electronic-components/erj3ekf7680v/res-thick-film-768r-1-0-1w-0603/dp/2303134</field>
+        <field name="Supplier Price">0.009</field>
+        <field name="Supplier Price Break">50</field>
+      </fields>
+      <libsource lib="appli_resistor" part="768R_1608M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C92791</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LM317LCPK</value>
+      <footprint>Applidyne_SOT:SOT89N</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm317l.pdf</datasheet>
+      <fields>
+        <field name="manf">TEXAS INSTRUMENTS</field>
+        <field name="manf#">LM317LCPK</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">2114055</field>
+        <field name="Supplier URL">http://au.element14.com/texas-instruments/lm317lcpk/adjustable-linear-regulator-1/dp/2114055</field>
+        <field name="Supplier Price">0.213</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <libsource lib="appli_regulator" part="LM317LCPK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C98750</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1UF_X7R_3216M</value>
+      <footprint>Applidyne_Capacitor:CAPC3216X135N</footprint>
+      <datasheet>http://docs-asia.electrocomponents.com/webdocs/1532/0900766b81532cd0.pdf</datasheet>
+      <fields>
+        <field name="manf">TDK</field>
+        <field name="manf#">C3216X7R2A105K160AA</field>
+        <field name="Supplier">RS Online</field>
+        <field name="Supplier Part No">740-7590</field>
+        <field name="Supplier URL">http://au.element14.com/murata/grm31cr71e106ka12l/cap-mlcc-x7r-10uf-25v-1206/dp/1735546</field>
+        <field name="Supplier Price">0.308</field>
+        <field name="Supplier Price Break">10</field>
+      </fields>
+      <libsource lib="appli_capacitor" part="1UF_X7R_3216M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C9D0E9</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>1UF_X7R_2012M</value>
+      <footprint>Applidyne_Capacitor:CAPC2012X110N</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2047889.pdf</datasheet>
+      <fields>
+        <field name="manf">MURATA</field>
+        <field name="manf#">GRM21BR71C105KA01L</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">9527710</field>
+        <field name="Supplier URL">http://au.element14.com/murata/grm21br71c105ka01l/cap-mlcc-x7r-1uf-16v-0805/dp/9527710</field>
+        <field name="Supplier Price">0.224</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <libsource lib="appli_capacitor" part="1UF_X7R_2012M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C993E1</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>LM317LCPK</value>
+      <footprint>Applidyne_SOT:SOT89N</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm317l.pdf</datasheet>
+      <fields>
+        <field name="manf">TEXAS INSTRUMENTS</field>
+        <field name="manf#">LM317LCPK</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">2114055</field>
+        <field name="Supplier URL">http://au.element14.com/texas-instruments/lm317lcpk/adjustable-linear-regulator-1/dp/2114055</field>
+        <field name="Supplier Price">0.213</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <libsource lib="appli_regulator" part="LM317LCPK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C9E3DC</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>1UF_X7R_3216M</value>
+      <footprint>Applidyne_Capacitor:CAPC3216X135N</footprint>
+      <datasheet>http://docs-asia.electrocomponents.com/webdocs/1532/0900766b81532cd0.pdf</datasheet>
+      <fields>
+        <field name="manf">TDK</field>
+        <field name="manf#">C3216X7R2A105K160AA</field>
+        <field name="Supplier">RS Online</field>
+        <field name="Supplier Part No">740-7590</field>
+        <field name="Supplier URL">http://au.element14.com/murata/grm31cr71e106ka12l/cap-mlcc-x7r-10uf-25v-1206/dp/1735546</field>
+        <field name="Supplier Price">0.308</field>
+        <field name="Supplier Price Break">10</field>
+      </fields>
+      <libsource lib="appli_capacitor" part="1UF_X7R_3216M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C9E410</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>1UF_X7R_2012M</value>
+      <footprint>Applidyne_Capacitor:CAPC2012X110N</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2047889.pdf</datasheet>
+      <fields>
+        <field name="manf">MURATA</field>
+        <field name="manf#">GRM21BR71C105KA01L</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">9527710</field>
+        <field name="Supplier URL">http://au.element14.com/murata/grm21br71c105ka01l/cap-mlcc-x7r-1uf-16v-0805/dp/9527710</field>
+        <field name="Supplier Price">0.224</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <libsource lib="appli_capacitor" part="1UF_X7R_2012M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C9E41E</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>240R_1608M</value>
+      <footprint>Applidyne_Resistor:RESC1608X50N</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1533075.pdf</datasheet>
+      <fields>
+        <field name="manf">VISHAY DRALORIC</field>
+        <field name="manf#">CRCW0603240RFKEA</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">1652863</field>
+        <field name="Supplier URL">http://au.element14.com/vishay-draloric/crcw0603240rfkea/resistor-0603-240r-1/dp/1652863</field>
+        <field name="Supplier Price">0.00221</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <libsource lib="appli_resistor" part="240R_1608M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59CA06D5</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>240R_1608M</value>
+      <footprint>Applidyne_Resistor:RESC1608X50N</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1533075.pdf</datasheet>
+      <fields>
+        <field name="manf">VISHAY DRALORIC</field>
+        <field name="manf#">CRCW0603240RFKEA</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">1652863</field>
+        <field name="Supplier URL">http://au.element14.com/vishay-draloric/crcw0603240rfkea/resistor-0603-240r-1/dp/1652863</field>
+        <field name="Supplier Price">0.00221</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <libsource lib="appli_resistor" part="240R_1608M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59CA2389</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>2K2_1608M</value>
+      <footprint>Applidyne_Resistor:RESC1608X50N</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2310790.pdf</datasheet>
+      <fields>
+        <field name="manf">VISHAY</field>
+        <field name="manf#">CRCW06032K20FKEA</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">1469765</field>
+        <field name="Supplier URL">http://au.element14.com/vishay/crcw06032k20fkea/res-thick-film-2k2-1-0-1w-0603/dp/1469765</field>
+        <field name="Supplier Price">0.062</field>
+        <field name="Supplier Price Break">10</field>
+      </fields>
+      <libsource lib="appli_resistor" part="2K2_1608M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59CA3902</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>750R_1608M</value>
+      <footprint>Applidyne_Resistor:RESC1608X50N</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2059623.pdf</datasheet>
+      <fields>
+        <field name="manf">PANASONIC</field>
+        <field name="manf#">ERJ3GEYJ751V</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">2059597</field>
+        <field name="Supplier URL">http://au.element14.com/panasonic-electronic-components/erj3geyj751v/res-thick-film-750r-5-0-1w-0603/dp/2059597</field>
+        <field name="Supplier Price">0.013</field>
+        <field name="Supplier Price Break">50</field>
+      </fields>
+      <libsource lib="appli_resistor" part="750R_1608M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59CA56E3</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100NF_X7R_1608M</value>
+      <footprint>Applidyne_Capacitor:CAPC1608X90N</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1732728.pdf</datasheet>
+      <fields>
+        <field name="manf">KEMET</field>
+        <field name="manf#">C0603C104K5RACAUTO</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">2070398</field>
+        <field name="Supplier URL">http://au.element14.com/kemet/c0603c104k5racauto/cap-mlcc-x7r-100nf-50v-0603/dp/2070398</field>
+        <field name="Supplier Price">0.011</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <libsource lib="appli_capacitor" part="100NF_X7R_1608M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59CAB037</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100UF_ELEC_35V_660X580M</value>
+      <footprint>Applidyne_Capacitor:CAPAE660X580DD180L260N</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1790597.pdf</datasheet>
+      <fields>
+        <field name="manf">PANASONIC</field>
+        <field name="manf#">EEEFT1V101AP</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">1868417</field>
+        <field name="Supplier URL">http://au.element14.com/panasonic-electronic-components/eeeft1v101ap/cap-alu-elec-100uf-35v-smd/dp/1868417</field>
+        <field name="Supplier Price">1.02</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <libsource lib="appli_capacitor" part="100UF_ELEC_35V_660X580M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59CAE236</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1000V_1A_SODFL5125</value>
+      <footprint>Applidyne_SOD:SODFL5125X250N</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1662762.pdf</datasheet>
+      <fields>
+        <field name="manf">MULTICOMP</field>
+        <field name="manf#">S1M</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">1625198</field>
+        <field name="Supplier URL">http://au.element14.com/multicomp/s1m/diode-standard-1a-1000v/dp/1625198</field>
+        <field name="Supplier Price">0.046</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <libsource lib="appli_device" part="1000V_1A_SODFL5125"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59CAFB9E</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>FT230XS-R</value>
+      <footprint>Applidyne_SOP:SOP16P65_500X640X120L62X24N</footprint>
+      <datasheet>http://www.mouser.com/ds/2/163/DS_FT230X-5395.pdf</datasheet>
+      <fields>
+        <field name="manf">FTDI</field>
+        <field name="manf#">FT230XS-R</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part No">895-FT230XS-R</field>
+        <field name="Supplier URL">http://au.mouser.com/ProductDetail/FTDI/FT230XS-R/</field>
+        <field name="Supplier Price">2.80</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <libsource lib="appli_ftdi" part="FT230XS-R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59CBB572</tstamp>
+    </comp>
+    <comp ref="FB1">
+      <value>CHOKE_6500uH_300mA_0.3-2MHz</value>
+      <footprint>Applidyne_Inductor:SRF0905</footprint>
+      <datasheet>http://www.mouser.com/ds/2/54/SRF0905-32579.pdf</datasheet>
+      <fields>
+        <field name="manf">BOURNS</field>
+        <field name="manf#">SRF0905-652Y</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part No">652-SRF0905-652Y</field>
+        <field name="Supplier URL">http://au.mouser.com/ProductDetail/Bourns/SRF0905-652Y/?qs=stOsxiBwuZWN3ZXLreHhzg%3D%3D</field>
+        <field name="Supplier Price">1.55</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <libsource lib="appli_inductor" part="CHOKE_6500uH_300mA_0.3-2MHz"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59CB3E10</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>MOLEX_MICROFIT_JR_RH_2x4_WAY</value>
+      <footprint>Applidyne_Connector_Molex:Molex_MiniFit-JR-5569-08A2_2x04x4.20mm_Angled</footprint>
+      <datasheet>http://www.mouser.com/ds/2/276/1724480008_PCB_HEADERS-704285.pdf</datasheet>
+      <fields>
+        <field name="manf">MOLEX</field>
+        <field name="manf#">172448-0008</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part No">538-172448-0008</field>
+        <field name="Supplier URL">http://au.mouser.com/ProductDetail/Molex/172448-0008/?qs=sGAEpiMZZMu58sUZeT0Q%2fmcYSNk2See2tTuPV1HDGjI%3d</field>
+        <field name="Supplier Price">1.998</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <libsource lib="appli_connector_molex" part="MOLEX_MICROFIT_JR_RH_2x4_WAY"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59CB6D55</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>MOLEX_MICROFIT_JR_RH_2x1_WAY</value>
+      <footprint>Applidyne_Connector_Molex:Molex_MiniFit-JR-5569-02A2_2x01x4.20mm_Angled</footprint>
+      <datasheet>http://www.mouser.com/ds/2/276/050362457_sd-590412.pdf</datasheet>
+      <fields>
+        <field name="manf">MOLEX</field>
+        <field name="manf#">50-36-2457</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part No">538-50-36-2457</field>
+        <field name="Supplier URL">http://au.mouser.com/ProductDetail/Molex/50-36-2457/</field>
+        <field name="Supplier Price">0.8</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <libsource lib="appli_connector_molex" part="MOLEX_MICROFIT_JR_RH_2x1_WAY"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59CB82A4</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>MOLEX_MICROFIT_JR_RH_2x2_WAY</value>
+      <footprint>Applidyne_Connector_Molex:Molex_MiniFit-JR-5569-04A2_2x02x4.20mm_Angled</footprint>
+      <datasheet>http://www.mouser.com/ds/2/276/0026013115_PCB_HEADERS-227840.pdf</datasheet>
+      <fields>
+        <field name="manf">MOLEX</field>
+        <field name="manf#">26-01-3115</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part No">538-26-01-3115</field>
+        <field name="Supplier URL">http://au.mouser.com/ProductDetail/Molex/26-01-3115/?qs=%2fha2pyFadugDpYK%2fBAu8EnNIIw97Z567UxXxDgiBIzo%3d</field>
+        <field name="Supplier Price">1.47</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <libsource lib="appli_connector_molex" part="MOLEX_MICROFIT_JR_RH_2x2_WAY"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59CB9003</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>MOLEX_MICROFIT_JR_RH_2x2_WAY</value>
+      <footprint>Applidyne_Connector_Molex:Molex_MiniFit-JR-5569-04A2_2x02x4.20mm_Angled</footprint>
+      <datasheet>http://www.mouser.com/ds/2/276/0026013115_PCB_HEADERS-227840.pdf</datasheet>
+      <fields>
+        <field name="manf">MOLEX</field>
+        <field name="manf#">26-01-3115</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part No">538-26-01-3115</field>
+        <field name="Supplier URL">http://au.mouser.com/ProductDetail/Molex/26-01-3115/?qs=%2fha2pyFadugDpYK%2fBAu8EnNIIw97Z567UxXxDgiBIzo%3d</field>
+        <field name="Supplier Price">1.47</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <libsource lib="appli_connector_molex" part="MOLEX_MICROFIT_JR_RH_2x2_WAY"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59CB933F</tstamp>
+    </comp>
+    <comp ref="TEST2">
+      <value>CLIP_HOOK_RED</value>
+      <footprint>Applidyne_Test:KEYSTONE_5000</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1703983.pdf</datasheet>
+      <fields>
+        <field name="manf">KEYSTONE</field>
+        <field name="manf#">5000</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">1463076</field>
+        <field name="Supplier URL">http://au.element14.com/keystone/5000/test-point-pcb-through-hole/dp/1463076</field>
+        <field name="Supplier Price">0.23</field>
+        <field name="Suppier Price Break">100</field>
+      </fields>
+      <libsource lib="appli_test_points" part="CLIP_HOOK_RED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59CC6BA9</tstamp>
+    </comp>
+    <comp ref="TEST1">
+      <value>CLIP_HOOK_RED</value>
+      <footprint>Applidyne_Test:KEYSTONE_5000</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1703983.pdf</datasheet>
+      <fields>
+        <field name="manf">KEYSTONE</field>
+        <field name="manf#">5000</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">1463076</field>
+        <field name="Supplier URL">http://au.element14.com/keystone/5000/test-point-pcb-through-hole/dp/1463076</field>
+        <field name="Supplier Price">0.23</field>
+        <field name="Suppier Price Break">100</field>
+      </fields>
+      <libsource lib="appli_test_points" part="CLIP_HOOK_RED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59CC7BF6</tstamp>
+    </comp>
+    <comp ref="TEST3">
+      <value>CLIP_HOOK_BLACK</value>
+      <footprint>Applidyne_Test:KEYSTONE_5001</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1703983.pdf</datasheet>
+      <fields>
+        <field name="manf">KEYSTONE</field>
+        <field name="manf#">5001</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">2301278</field>
+        <field name="Supplier URL">http://au.element14.com/keystone/5001/test-point-pcb-through-hole/dp/2301278</field>
+        <field name="Supplier Price">0.218</field>
+        <field name="Suppier Price Break">100</field>
+      </fields>
+      <libsource lib="appli_test_points" part="CLIP_HOOK_BLACK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59CC9035</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>CONN_01X08</value>
+      <footprint>Applidyne_Connector_Wurth:61300811121</footprint>
+      <datasheet>http://www.farnell.com/cad/2124416.pdf</datasheet>
+      <fields>
+        <field name="manf">WURTH</field>
+        <field name="manf#">61300811121</field>
+        <field name="Supplier">Element 14</field>
+        <field name="Supplier Part No">2356160</field>
+        <field name="Supplier URL">http://au.element14.com/wurth-elektronik/61300811121/header-2-54mm-pin-tht-vertical/dp/2356160</field>
+        <field name="Supplier Price">0.358</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <libsource lib="appli_connector_wurth" part="CONN_01X08"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59CC67D2</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100NF_X7R_1608M</value>
+      <footprint>Applidyne_Capacitor:CAPC1608X90N</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1732728.pdf</datasheet>
+      <fields>
+        <field name="manf">KEMET</field>
+        <field name="manf#">C0603C104K5RACAUTO</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">2070398</field>
+        <field name="Supplier URL">http://au.element14.com/kemet/c0603c104k5racauto/cap-mlcc-x7r-100nf-50v-0603/dp/2070398</field>
+        <field name="Supplier Price">0.011</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <libsource lib="appli_capacitor" part="100NF_X7R_1608M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59CC8AC5</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="appli_device" part="1000V_1A_SODFL5125">
+      <description>DIODE, 1000V, 1A, DO-214AC</description>
+      <docs>http://www.farnell.com/datasheets/1662762.pdf</docs>
+      <footprints>
+        <fp>SODFL5125*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1000V_1A_SODFL5125</field>
+        <field name="Footprint">SODFL5125*</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/1662762.pdf</field>
+        <field name="manf">MULTICOMP</field>
+        <field name="manf#">S1M</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">1625198</field>
+        <field name="Supplier URL">http://au.element14.com/multicomp/s1m/diode-standard-1a-1000v/dp/1625198</field>
+        <field name="Supplier Price">0.046</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_capacitor" part="100NF_X7R_1608M">
+      <description>CAP, MLCC, X7R, 100NF, 50V, 0603</description>
+      <docs>http://www.farnell.com/datasheets/1732728.pdf</docs>
+      <footprints>
+        <fp>CAPC1608*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100NF_X7R_1608M</field>
+        <field name="Footprint">CAPC1608*</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/1732728.pdf</field>
+        <field name="manf">KEMET</field>
+        <field name="manf#">C0603C104K5RACAUTO</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">2070398</field>
+        <field name="Supplier URL">http://au.element14.com/kemet/c0603c104k5racauto/cap-mlcc-x7r-100nf-50v-0603/dp/2070398</field>
+        <field name="Supplier Price">0.011</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_capacitor" part="100UF_ELEC_35V_660X580M">
+      <description>CAP, ALU ELEC, 100UF, 35V, SMD</description>
+      <docs>http://www.farnell.com/datasheets/1790597.pdf</docs>
+      <footprints>
+        <fp>CAPAE660X580DD180L260*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100UF_ELEC_35V_660X580M</field>
+        <field name="Footprint">CAPAE660X580DD180L260*</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/1790597.pdf</field>
+        <field name="manf">PANASONIC</field>
+        <field name="manf#">EEEFT1V101AP</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">1868417</field>
+        <field name="Supplier URL">http://au.element14.com/panasonic-electronic-components/eeeft1v101ap/cap-alu-elec-100uf-35v-smd/dp/1868417</field>
+        <field name="Supplier Price">1.02</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_resistor" part="1K00_1608M">
+      <description>RESISTOR, THICK FILM, 1K, 125mW, 1%, 0603, 1608M</description>
+      <footprints>
+        <fp>RESC1608*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1K00_1608M</field>
+        <field name="Footprint">RESC1608*</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/1723233.pdf</field>
+        <field name="manf">MULTICOMP</field>
+        <field name="manf#">MCHP03W8F1001T5E</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">1576283</field>
+        <field name="Supplier URL">http://au.element14.com/multicomp/mchp03w8f1001t5e/resistor-thick-film-1k-0-125w/dp/1576283</field>
+        <field name="Supplier Price">0.011</field>
+        <field name="Supplier Price Break">50+</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_capacitor" part="1UF_X7R_2012M">
+      <description>CAP, MLCC, X7R, 1UF, 16V, 0805, 2012M</description>
+      <docs>http://www.farnell.com/datasheets/2047889.pdf</docs>
+      <footprints>
+        <fp>CAPC2012*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1UF_X7R_2012M</field>
+        <field name="Footprint">CAPC2012*</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/2047889.pdf</field>
+        <field name="manf">MURATA</field>
+        <field name="manf#">GRM21BR71C105KA01L</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">9527710</field>
+        <field name="Supplier URL">http://au.element14.com/murata/grm21br71c105ka01l/cap-mlcc-x7r-1uf-16v-0805/dp/9527710</field>
+        <field name="Supplier Price">0.224</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_capacitor" part="1UF_X7R_3216M">
+      <description>CAP, MLCC, X7R, 1UF, 100V, 1206, 3216M</description>
+      <docs>http://docs-asia.electrocomponents.com/webdocs/1532/0900766b81532cd0.pdf</docs>
+      <footprints>
+        <fp>CAPC3216*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1UF_X7R_3216M</field>
+        <field name="Footprint">Applidyne_Capacitor:CAPC3216X135N</field>
+        <field name="Datasheet">http://docs-asia.electrocomponents.com/webdocs/1532/0900766b81532cd0.pdf</field>
+        <field name="manf">TDK</field>
+        <field name="manf#">C3216X7R2A105K160AA</field>
+        <field name="Supplier">RS Online</field>
+        <field name="Supplier Part No">740-7590</field>
+        <field name="Supplier URL">http://au.element14.com/murata/grm31cr71e106ka12l/cap-mlcc-x7r-10uf-25v-1206/dp/1735546</field>
+        <field name="Supplier Price">0.308</field>
+        <field name="Supplier Price Break">10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_resistor" part="22R_1608M">
+      <description>RESISTOR, THICK FILM, 22R, 125mW, 1%, 0603, 1608M</description>
+      <docs>http://www.farnell.com/datasheets/1788326.pdf</docs>
+      <footprints>
+        <fp>RESC1608*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">22R_1608M</field>
+        <field name="Footprint">RESC1608*</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/1788326.pdf</field>
+        <field name="manf">MULTICOMP</field>
+        <field name="manf#">MC0063W060314R22</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">2141539</field>
+        <field name="Supplier URL">http://au.element14.com/multicomp/mc0063w060314r22/res-thick-film-4r22-1-0-063w-0603/dp/2141539</field>
+        <field name="Supplier Price">0.015</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_resistor" part="240R_1608M">
+      <description>RESISTOR, THICK FILM, 240R, 100mW, 1%, 0603, 1608M</description>
+      <docs>http://www.farnell.com/datasheets/1533075.pdf</docs>
+      <footprints>
+        <fp>RESC1608*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">240R_1608M</field>
+        <field name="Footprint">RESC1608*</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/1533075.pdf</field>
+        <field name="manf">VISHAY DRALORIC</field>
+        <field name="manf#">CRCW0603240RFKEA</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">1652863</field>
+        <field name="Supplier URL">http://au.element14.com/vishay-draloric/crcw0603240rfkea/resistor-0603-240r-1/dp/1652863</field>
+        <field name="Supplier Price">0.00221</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_resistor" part="2K2_1608M">
+      <description>RESISTOR, THICK FILM, 2.2K, 100mW, 1%, 0603, 1608M</description>
+      <docs>http://www.farnell.com/datasheets/2310790.pdf</docs>
+      <footprints>
+        <fp>RESC1608*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">2K2_1608M</field>
+        <field name="Footprint">RESC1608*</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/2310790.pdf</field>
+        <field name="manf">VISHAY</field>
+        <field name="manf#">CRCW06032K20FKEA</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">1469765</field>
+        <field name="Supplier URL">http://au.element14.com/vishay/crcw06032k20fkea/res-thick-film-2k2-1-0-1w-0603/dp/1469765</field>
+        <field name="Supplier Price">0.062</field>
+        <field name="Supplier Price Break">10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_resistor" part="2K40_1608M">
+      <description>RESISTOR, THICK FILM, 2K4, 63mW, 1%, 0603, 1608M</description>
+      <docs>http://www.farnell.com/datasheets/1788326.pdf</docs>
+      <footprints>
+        <fp>RESC1608*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">2K40_1608M</field>
+        <field name="Footprint">RESC1608*</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/1788326.pdf</field>
+        <field name="manf">MULTICOMP</field>
+        <field name="manf#">MC0063W060312K4</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">9330879</field>
+        <field name="Supplier URL">http://au.element14.com/multicomp/mc0063w060312k4/resistor-2k4-0-063w-1-0603/dp/9330879</field>
+        <field name="Supplier Price">0.0011</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_capacitor" part="33NF_X7R_1608M">
+      <description>CAP, MLCC, X7R, 33NF, 50V, 0603</description>
+      <docs>http://www.farnell.com/datasheets/1633156.pdf</docs>
+      <footprints>
+        <fp>CAPC1608*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">33NF_X7R_1608M</field>
+        <field name="Footprint">CAPC1608*</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/1633156.pdf</field>
+        <field name="manf">KEMET</field>
+        <field name="manf#">C0603C333K5RACAUTO</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">2070421</field>
+        <field name="Supplier URL">http://au.element14.com/kemet/c0603c333k5racauto/cap-mlcc-x7r-33nf-50v-0603/dp/2070421</field>
+        <field name="Supplier Price">0.311</field>
+        <field name="Supplier Price Break">10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_resistor" part="390R_1608M">
+      <description>RESISTOR, THICK FILM, 390R, 63mW, 1%, 0603, 1608M</description>
+      <docs>http://www.farnell.com/datasheets/1788326.pdf</docs>
+      <footprints>
+        <fp>RESC1608*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">390R_1608M</field>
+        <field name="Footprint">RESC1608*</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/1788326.pdf</field>
+        <field name="manf">MULTICOMP</field>
+        <field name="manf#">MC0063W06031390R</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">9331131</field>
+        <field name="Supplier URL">http://au.element14.com/multicomp/mc0063w06031390r/resistor-390r-0-063w-1-0603/dp/9331131</field>
+        <field name="Supplier Price">0.00141</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_resistor" part="470K_1608M">
+      <description>RESISTOR, THICK FILM, 470K, 100mW, 1%, 0603, 1608M</description>
+      <docs>http://www.farnell.com/datasheets/1911175.pdf</docs>
+      <footprints>
+        <fp>RESC1608*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">470K_1608M</field>
+        <field name="Footprint">RESC1608*</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/1911175.pdf</field>
+        <field name="manf">PANASONIC</field>
+        <field name="manf#">ERJ3EKF4703V</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">2303289</field>
+        <field name="Supplier URL">http://au.element14.com/panasonic-electronic-components/erj3ekf4703v/res-thick-film-470k-1-0-1w-0603/dp/2303289</field>
+        <field name="Supplier Price">0.009</field>
+        <field name="Supplier Price Break">50</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_resistor" part="4K7_1608M">
+      <description>RESISTOR, THICK FILM, 100K, 125mW, 1%, 0603, 1608M</description>
+      <docs>http://www.farnell.com/datasheets/1788326.pdf</docs>
+      <footprints>
+        <fp>RESC1608*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">4K7_1608M</field>
+        <field name="Footprint">RESC1608*</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/1788326.pdf</field>
+        <field name="manf">MULTICOMP</field>
+        <field name="manf#">MC0063W060354K7</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">9332154</field>
+        <field name="Supplier URL">http://au.element14.com/multicomp/mc0063w060354k7/res-thick-film-4k7-5-0-063w-0603/dp/9332154</field>
+        <field name="Supplier Price">0.024</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_fuse" part="500mA_1210L_PTC">
+      <description>FUSE, RESETTABLE, PTC, 13.2VDC, 500mA, SMD, 1210L050</description>
+      <docs>http://docs-asia.electrocomponents.com/webdocs/1420/0900766b8142082b.pdf</docs>
+      <footprints>
+        <fp>FUSC3225X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">500mA_1210L_PTC</field>
+        <field name="Footprint">Applidyne_Fuse:FUSC3225X85L50N</field>
+        <field name="Datasheet">http://docs-asia.electrocomponents.com/webdocs/1420/0900766b8142082b.pdf</field>
+        <field name="manf">LittelFuse</field>
+        <field name="manf#"> 1210L050YR</field>
+        <field name="Supplier">RS Online</field>
+        <field name="Supplier Part No">787-4202</field>
+        <field name="Supplier URL">http://au.rs-online.com/web/p/resettable-surface-mount-fuses/7874202/</field>
+        <field name="Supplier Price">0.486</field>
+        <field name="Supplier Price Break">10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_resistor" part="560R_1608M">
+      <description>RESISTOR, THICK FILM, 560R, 125mW, 1%, 0603, 1608M</description>
+      <docs>http://www.farnell.com/datasheets/1716711.pdf</docs>
+      <footprints>
+        <fp>RESC1608*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">560R_1608M</field>
+        <field name="Footprint">RESC1608*</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/1280654.pdf</field>
+        <field name="manf">MULTICOMP</field>
+        <field name="manf#">MC0201L6F5600SE</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">1838056</field>
+        <field name="Supplier URL">http://au.element14.com/multicomp/mc0201l6f5600se/res-thick-film-560r-1-0-05w-0201/dp/1838056</field>
+        <field name="Supplier Price">0.003</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_resistor" part="62R_1608M">
+      <description>RESISTOR, THICK FILM, 62R, 63mW, 0603, 1608M</description>
+      <docs>http://www.farnell.com/datasheets/2140393.pdf</docs>
+      <footprints>
+        <fp>RESC1608*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">62R_1608M</field>
+        <field name="Footprint">RESC1608*</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/2140393.pdf</field>
+        <field name="manf">MULTICOMP</field>
+        <field name="manf#">MC00625W0402162R</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">1358010</field>
+        <field name="Supplier URL">http://au.element14.com/multicomp/mc00625w0402162r/res-thick-film-62r-1-0-0625w-0402/dp/1358010</field>
+        <field name="Supplier Price">0.008</field>
+        <field name="Supplier Price Break">50</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_resistor" part="750R_1608M">
+      <description>RESISTOR, THICK FILM, 750R, 100mW, 0603, 1608M</description>
+      <docs>http://www.farnell.com/datasheets/2059623.pdf</docs>
+      <footprints>
+        <fp>RESC1608*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">750R_1608M</field>
+        <field name="Footprint">RESC1608*</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/2059623.pdf</field>
+        <field name="manf">PANASONIC</field>
+        <field name="manf#">ERJ3GEYJ751V</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">2059597</field>
+        <field name="Supplier URL">http://au.element14.com/panasonic-electronic-components/erj3geyj751v/res-thick-film-750r-5-0-1w-0603/dp/2059597</field>
+        <field name="Supplier Price">0.013</field>
+        <field name="Supplier Price Break">50</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_resistor" part="768R_1608M">
+      <description>RESISTOR, THICK FILM, 768R, 100mW, 1%, 0603, 1608M</description>
+      <docs>http://www.farnell.com/datasheets/1911175.pdf</docs>
+      <footprints>
+        <fp>RESC1608*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">768R_1608M</field>
+        <field name="Footprint">RESC1608*</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/1911175.pdf</field>
+        <field name="manf">PANASONIC</field>
+        <field name="manf#">ERJ3EKF7680V</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">2303134</field>
+        <field name="Supplier URL">http://au.element14.com/panasonic-electronic-components/erj3ekf7680v/res-thick-film-768r-1-0-1w-0603/dp/2303134</field>
+        <field name="Supplier Price">0.009</field>
+        <field name="Supplier Price Break">50</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_resistor" part="93K1_1608M">
+      <description>RESISTOR, THICK FILM, 93.1K, 100mW, 1%, 0603, 1608M</description>
+      <docs>http://www.farnell.com/datasheets/2046716.pdf</docs>
+      <footprints>
+        <fp>RESC1608*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">93K1_1608M</field>
+        <field name="Footprint">Applidyne_Resistor:RESC1608X50N</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/2046716.pdf</field>
+        <field name="manf">VISHAY</field>
+        <field name="manf#">CRCW060393K1FKEA</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">1152169</field>
+        <field name="Supplier URL">http://au.element14.com/vishay/crcw060393k1fkea/res-thick-film-93k1-1-0-1w-0603/dp/1152169</field>
+        <field name="Supplier Price">0.085</field>
+        <field name="Supplier Price Break">10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_device" part="BAS21_SOT23">
+      <description>DIODE, 250V, 1.25Vfd, 2A surge, 50ns, SOT23</description>
+      <docs>http://www.mouser.com/ds/2/308/BAS21-1118533.pdf</docs>
+      <footprints>
+        <fp>SOT95P240X110-3L16*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAS21_SOT23</field>
+        <field name="Footprint">SOT95P240X110-3L16*</field>
+        <field name="Datasheet">http://www.mouser.com/ds/2/308/BAS21-1118533.pdf</field>
+        <field name="manf">ON SEMICONDUCTOR</field>
+        <field name="manf#">BAS21</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part No">512-BAS21</field>
+        <field name="Supplier URL">http://au.mouser.com/Search/ProductDetail.aspx?qs=GXJjH%252bIVz3MgJ%252bf2%252bjymzQ%3D%3D</field>
+        <field name="Supplier Price">0.228</field>
+        <field name="Supplier Price Break">10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_inductor" part="CHOKE_6500uH_300mA_0.3-2MHz">
+      <description>LINE FILTER, 6500uH, 80V, 300mA, 0.3-2Mhz, SMD</description>
+      <docs>http://www.mouser.com/ds/2/54/SRF0905-32579.pdf</docs>
+      <footprints>
+        <fp>SRF0905*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">CHOKE_6500uH_300mA_0.3-2MHz</field>
+        <field name="Footprint">Applidyne_Inductor:SRF0905</field>
+        <field name="Datasheet">http://www.mouser.com/ds/2/54/SRF0905-32579.pdf</field>
+        <field name="manf">BOURNS</field>
+        <field name="manf#">SRF0905-652Y</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part No">652-SRF0905-652Y</field>
+        <field name="Supplier URL">http://au.mouser.com/ProductDetail/Bourns/SRF0905-652Y/?qs=stOsxiBwuZWN3ZXLreHhzg%3D%3D</field>
+        <field name="Supplier Price">1.55</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_test_points" part="CLIP_HOOK_BLACK">
+      <description>PCB Probe Hook, BLACK, Through Hole</description>
+      <docs>http://www.farnell.com/datasheets/1703983.pdf</docs>
+      <footprints>
+        <fp>KEYSTONE_5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TEST</field>
+        <field name="Value">CLIP_HOOK_BLACK</field>
+        <field name="Footprint">Applidyne_Test:KEYSTONE_5001</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/1703983.pdf</field>
+        <field name="manf">KEYSTONE</field>
+        <field name="manf#">5001</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">2301278</field>
+        <field name="Supplier URL">http://au.element14.com/keystone/5001/test-point-pcb-through-hole/dp/2301278</field>
+        <field name="Supplier Price">0.218</field>
+        <field name="Suppier Price Break">100</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_test_points" part="CLIP_HOOK_RED">
+      <description>PCB Probe Hook, RED, Through Hole</description>
+      <docs>http://www.farnell.com/datasheets/1703983.pdf</docs>
+      <footprints>
+        <fp>KEYSTONE_5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TEST</field>
+        <field name="Value">CLIP_HOOK_RED</field>
+        <field name="Footprint">Applidyne_Test:KEYSTONE_5000</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/1703983.pdf</field>
+        <field name="manf">KEYSTONE</field>
+        <field name="manf#">5000</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">1463076</field>
+        <field name="Supplier URL">http://au.element14.com/keystone/5000/test-point-pcb-through-hole/dp/1463076</field>
+        <field name="Supplier Price">0.23</field>
+        <field name="Suppier Price Break">100</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_connector_wurth" part="CONN_01X08">
+      <description>Pin Header, 2.54mm, Vertical, PTH, 8 Way, 1 Row, 01x08</description>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X08</field>
+        <field name="Footprint">Applidyne_Connector_Wurth:61300811121</field>
+        <field name="Datasheet">http://www.farnell.com/cad/2124416.pdf</field>
+        <field name="manf">WURTH</field>
+        <field name="manf#">61300811121</field>
+        <field name="Supplier">Element 14</field>
+        <field name="Supplier Part No">2356160</field>
+        <field name="Supplier URL">http://au.element14.com/wurth-elektronik/61300811121/header-2-54mm-pin-tht-vertical/dp/2356160</field>
+        <field name="Supplier Price">0.358</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_ftdi" part="FT230XS-R">
+      <description>USB-UART/FIFO, USB2.0, FT230, SMD, TSSOP-16</description>
+      <docs>http://www.mouser.com/ds/2/163/DS_FT230X-5395.pdf</docs>
+      <footprints>
+        <fp>SOP16P65_500X640X120L62X24*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FT230XS-R</field>
+        <field name="Footprint">Applidyne_SOP:SOP16P65_500X640X120L62X24N</field>
+        <field name="Datasheet">http://www.mouser.com/ds/2/163/DS_FT230X-5395.pdf</field>
+        <field name="manf">FTDI</field>
+        <field name="manf#">FT230XS-R</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part No">895-FT230XS-R</field>
+        <field name="Supplier URL">http://au.mouser.com/ProductDetail/FTDI/FT230XS-R/</field>
+        <field name="Supplier Price">2.80</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXD" type="passive"/>
+        <pin num="2" name="RTS#" type="passive"/>
+        <pin num="3" name="VCCIO" type="power_in"/>
+        <pin num="4" name="RXD" type="passive"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="CTS#" type="passive"/>
+        <pin num="7" name="CBUS2" type="passive"/>
+        <pin num="8" name="USB_DP" type="BiDi"/>
+        <pin num="9" name="USB_DM" type="BiDi"/>
+        <pin num="10" name="3V3OUT" type="power_out"/>
+        <pin num="11" name="RESET#" type="passive"/>
+        <pin num="12" name="VCC" type="power_in"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="CBUS1" type="passive"/>
+        <pin num="15" name="CBUS0" type="passive"/>
+        <pin num="16" name="CBUS3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_device" part="LED_GREEN_1608M">
+      <description>DIALIGHT ChipLED Green, 0603, 1608M</description>
+      <docs>http://www.farnell.com/datasheets/1720200.pdf</docs>
+      <footprints>
+        <fp>LEDC1608X80L40*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_GREEN_1608M</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/1720200.pdf</field>
+        <field name="manf">DIALIGHT</field>
+        <field name="manf#">5988070107F</field>
+        <field name="Supplier">Element 14</field>
+        <field name="Supplier Part No">1465991</field>
+        <field name="Supplier URL">http://au.element14.com/dialight/5988070107f/led-0603-green-20mcd-566nm/dp/1465991</field>
+        <field name="Supplier Price">0.4</field>
+        <field name="Supplier Price Break">10</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_regulator" part="LM317LCPK">
+      <description>ADJUSTABLE LINEAR REGULATOR, 1.2V TO 32V, SOT89-3</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm317l.pdf</docs>
+      <footprints>
+        <fp>SOT89*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM317LCPK</field>
+        <field name="Footprint">SOT89*</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm317l.pdf</field>
+        <field name="manf">TEXAS INSTRUMENTS</field>
+        <field name="manf#">LM317LCPK</field>
+        <field name="Supplier">Element14</field>
+        <field name="Supplier Part No">2114055</field>
+        <field name="Supplier URL">http://au.element14.com/texas-instruments/lm317lcpk/adjustable-linear-regulator-1/dp/2114055</field>
+        <field name="Supplier Price">0.213</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADJ" type="input"/>
+        <pin num="2" name="OUT" type="power_out"/>
+        <pin num="3" name="IN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_transistor" part="MMBT5401">
+      <description>Transistor, PNP, -150V, 300MHz, 600mA, 250mW, SOT23</description>
+      <docs>http://www.mouser.com/ds/2/308/MMBT5401-1121136.pdf</docs>
+      <footprints>
+        <fp>SOT95P240X110-3L16*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MMBT5401</field>
+        <field name="Footprint">SOT95P240X110-3L16*</field>
+        <field name="Datasheet">http://www.mouser.com/ds/2/308/MMBT5401-1121136.pdf</field>
+        <field name="manf">ON SEMI</field>
+        <field name="manf#">MMBT5401</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part No">512-MMBT5401</field>
+        <field name="Supplier URL">http://au.mouser.com/ProductDetail/Fairchild-Semiconductor/MMBT5401/?qs=UMEuL5FsraBsdYafUfvRdA%3D%3D</field>
+        <field name="Supplier Price">0.243</field>
+        <field name="Supplier Price Break">10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_transistor" part="MMBTA06">
+      <description>Transistor, NPN, 80V, 100MHz, 500mA, 350mW, SOT-23</description>
+      <docs>http://www.mouser.com/ds/2/308/MMBTA06-1121073.pdf</docs>
+      <footprints>
+        <fp>SOT95P240X110-3L16*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MMBTA06</field>
+        <field name="Footprint">SOT95P240X110-3L16*</field>
+        <field name="Datasheet">http://www.mouser.com/ds/2/308/MMBTA06-1121073.pdf</field>
+        <field name="manf">ON SEMI</field>
+        <field name="manf#">MMBTA06</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part No">512-MMBTA06</field>
+        <field name="Supplier URL">http://au.mouser.com/Search/ProductDetail.aspx?qs=UMEuL5FsraDNITJVR5yrvg%3D%3D</field>
+        <field name="Supplier Price">0.34</field>
+        <field name="Supplier Price Break">10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_mount" part="MNT_M3_PLATED">
+      <description>Mounting Hole, Plated, M3</description>
+      <footprints>
+        <fp>MTGP650H330</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">MNT</field>
+        <field name="Value">MNT_M3_PLATED</field>
+        <field name="Footprint">MTGP650H330</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_connector_molex" part="MOLEX_MICROFIT_JR_RH_2x1_WAY">
+      <description>CONNECTOR, SOCKET, 2POS, 1ROW, MICRO-FIT JR, 5569 series, 4.2MM pitch, PTH</description>
+      <docs>http://www.mouser.com/ds/2/276/050362457_sd-590412.pdf</docs>
+      <footprints>
+        <fp>Molex_MiniFit-JR-5569-02A2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">MOLEX_MICROFIT_JR_RH_2x1_WAY</field>
+        <field name="Footprint">Applidyne_Connector_Molex:Molex_MiniFit-JR-5569-02A2_2x01x4.20mm_Angled</field>
+        <field name="Datasheet">http://www.mouser.com/ds/2/276/050362457_sd-590412.pdf</field>
+        <field name="manf">MOLEX</field>
+        <field name="manf#">50-36-2457</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part No">538-50-36-2457</field>
+        <field name="Supplier URL">http://au.mouser.com/ProductDetail/Molex/50-36-2457/</field>
+        <field name="Supplier Price">0.8</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_connector_molex" part="MOLEX_MICROFIT_JR_RH_2x2_WAY">
+      <description>CONNECTOR, SOCKET, 4POS, 2ROW, MICRO-FIT JR, 5569 series, 4.2MM pitch, PTH</description>
+      <docs>http://www.mouser.com/ds/2/276/0026013115_PCB_HEADERS-227840.pdf</docs>
+      <footprints>
+        <fp>Molex_MiniFit-JR-5569-04A2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">MOLEX_MICROFIT_JR_RH_2x2_WAY</field>
+        <field name="Footprint">Applidyne_Connector_Molex:Molex_MiniFit-JR-5569-04A2_2x02x4.20mm_Angled</field>
+        <field name="Datasheet">http://www.mouser.com/ds/2/276/0026013115_PCB_HEADERS-227840.pdf</field>
+        <field name="manf">MOLEX</field>
+        <field name="manf#">26-01-3115</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part No">538-26-01-3115</field>
+        <field name="Supplier URL">http://au.mouser.com/ProductDetail/Molex/26-01-3115/?qs=%2fha2pyFadugDpYK%2fBAu8EnNIIw97Z567UxXxDgiBIzo%3d</field>
+        <field name="Supplier Price">1.47</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_connector_molex" part="MOLEX_MICROFIT_JR_RH_2x4_WAY">
+      <description>CONNECTOR, SOCKET, 8POS, 4ROW, MICRO-FIT JR, 5569 series, 4.2MM pitch, PTH</description>
+      <docs>http://www.mouser.com/ds/2/276/1724480008_PCB_HEADERS-704285.pdf</docs>
+      <footprints>
+        <fp>Molex_MiniFit-JR-5569-08A2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">MOLEX_MICROFIT_JR_RH_2x4_WAY</field>
+        <field name="Footprint">Applidyne_Connector_Molex:Molex_MiniFit-JR-5569-08A2_2x04x4.20mm_Angled</field>
+        <field name="Datasheet">http://www.mouser.com/ds/2/276/1724480008_PCB_HEADERS-704285.pdf</field>
+        <field name="manf">MOLEX</field>
+        <field name="manf#">172448-0008</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part No">538-172448-0008</field>
+        <field name="Supplier URL">http://au.mouser.com/ProductDetail/Molex/172448-0008/?qs=sGAEpiMZZMu58sUZeT0Q%2fmcYSNk2See2tTuPV1HDGjI%3d</field>
+        <field name="Supplier Price">1.998</field>
+        <field name="Supplier Price Break">1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_special" part="SN74HC14PWR">
+      <footprints>
+        <fp>SOP14P65_500X640X120L62X24*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74HC14PWR</field>
+        <field name="Footprint">Applidyne_SOP:SOP14P65_500X640X120L62X24N</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/sn74hc14</field>
+        <field name="manf">TI</field>
+        <field name="manf#">SN74HC14PWR</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part No">595-SN74HC14PWR</field>
+        <field name="Supplier URL">http://au.mouser.com/ProductDetail/Texas-Instruments/SN74HC14PWR/?qs=sGAEpiMZZMutVWjHE%2fYQw9XSWsf7N%2fuyBxLji%2fG2WzM%3d</field>
+        <field name="Supplier Price">0.456</field>
+        <field name="Supplier Price Break">10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="input"/>
+        <pin num="2" name="Y" type="3state"/>
+        <pin num="3" name="A" type="input"/>
+        <pin num="4" name="Y" type="3state"/>
+        <pin num="5" name="A" type="input"/>
+        <pin num="6" name="Y" type="3state"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="A" type="input"/>
+        <pin num="9" name="Y" type="3state"/>
+        <pin num="10" name="A" type="input"/>
+        <pin num="11" name="Y" type="3state"/>
+        <pin num="12" name="A" type="input"/>
+        <pin num="13" name="Y" type="3state"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_special" part="USBLC6">
+      <description>USBLC6-2 Low capacitance ESD Protection IC</description>
+      <docs>http://docs-asia.electrocomponents.com/webdocs/07bd/0900766b807bd47e.pdf</docs>
+      <footprints>
+        <fp>SOT95P280x145-6L50*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">USBLC6</field>
+        <field name="Datasheet">http://docs-asia.electrocomponents.com/webdocs/07bd/0900766b807bd47e.pdf</field>
+        <field name="manf">ST</field>
+        <field name="manf#">USBLC6-2SC6</field>
+        <field name="Supplier">RS Online</field>
+        <field name="Supplier Part No"> 624-7693</field>
+        <field name="Supplier URL">http://au.rs-online.com/web/p/tvs-diodes/6247693/</field>
+        <field name="Supplier Price">0.59</field>
+        <field name="Supplier Price Break">10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN_1" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="IN_2" type="input"/>
+        <pin num="4" name="OUT_2" type="input"/>
+        <pin num="5" name="VBUS" type="input"/>
+        <pin num="6" name="OUT_1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="appli_usb" part="USB_MICRO_B_SMD_2">
+      <description>MICRO USB B RIGHT ANGLE FEMALE MOLEX</description>
+      <docs>http://www.farnell.com/datasheets/2214755.pdf</docs>
+      <footprints>
+        <fp>MOLEX_47346-0001</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J?</field>
+        <field name="Value">USB_MICRO_B_SMD_2</field>
+        <field name="Footprint">Applidyne_USB:MOLEX_47346-0001</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/2214755.pdf</field>
+        <field name="manf">Molex</field>
+        <field name="manf#">47346-0001</field>
+        <field name="Supplier">Element 14</field>
+        <field name="Supplier Part No">1568026</field>
+        <field name="Supplier URL">http://au.element14.com/molex/47346-0001/micro-usb-2-0-type-b-receptacle/dp/1568026</field>
+        <field name="Supplier Price">1.5</field>
+        <field name="Supplier Price Break">10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="BiDi"/>
+        <pin num="3" name="D+" type="BiDi"/>
+        <pin num="4" name="ID" type="BiDi"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="SH" name="SHLD" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="appli_inductor">
+      <uri>/home/scott/projects/ECAD/kicad-library/appli_inductor.lib</uri>
+    </library>
+    <library logical="appli_device">
+      <uri>/home/scott/projects/ECAD/kicad-library/appli_device.lib</uri>
+    </library>
+    <library logical="appli_connector_molex">
+      <uri>/home/scott/projects/ECAD/kicad-library/appli_connector_molex.lib</uri>
+    </library>
+    <library logical="appli_fuse">
+      <uri>/home/scott/projects/ECAD/kicad-library/appli_fuse.lib</uri>
+    </library>
+    <library logical="appli_capacitor">
+      <uri>/home/scott/projects/ECAD/kicad-library/appli_capacitor.lib</uri>
+    </library>
+    <library logical="appli_test_points">
+      <uri>/home/scott/projects/ECAD/kicad-library/appli_test_points.lib</uri>
+    </library>
+    <library logical="appli_special">
+      <uri>/home/scott/projects/ECAD/kicad-library/appli_special.lib</uri>
+    </library>
+    <library logical="appli_connector_wurth">
+      <uri>/home/scott/projects/ECAD/kicad-library/appli_connector_wurth.lib</uri>
+    </library>
+    <library logical="appli_resistor">
+      <uri>/home/scott/projects/ECAD/kicad-library/appli_resistor.lib</uri>
+    </library>
+    <library logical="appli_transistor">
+      <uri>/home/scott/projects/ECAD/kicad-library/appli_transistor.lib</uri>
+    </library>
+    <library logical="appli_usb">
+      <uri>/home/scott/projects/ECAD/kicad-library/appli_usb.lib</uri>
+    </library>
+    <library logical="appli_regulator">
+      <uri>/home/scott/projects/ECAD/kicad-library/appli_regulator.lib</uri>
+    </library>
+    <library logical="appli_mount">
+      <uri>/home/scott/projects/ECAD/kicad-library/appli_mount.lib</uri>
+    </library>
+    <library logical="appli_ftdi">
+      <uri>/home/scott/projects/ECAD/kicad-library/appli_ftdi.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="U2" pin="5"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U5" pin="7"/>
+      <node ref="U5" pin="7"/>
+      <node ref="U5" pin="7"/>
+      <node ref="U3" pin="2"/>
+      <node ref="MNT1" pin="1"/>
+      <node ref="P1" pin="2"/>
+      <node ref="P2" pin="4"/>
+      <node ref="P3" pin="4"/>
+      <node ref="U2" pin="13"/>
+      <node ref="TEST3" pin="1"/>
+      <node ref="FB1" pin="1"/>
+      <node ref="C12" pin="2"/>
+      <node ref="MNT2" pin="1"/>
+      <node ref="P5" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="R15" pin="2"/>
+      <node ref="MNT3" pin="1"/>
+      <node ref="MNT4" pin="1"/>
+      <node ref="R11" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="J?1" pin="5"/>
+      <node ref="J?1" pin="SH"/>
+      <node ref="U5" pin="7"/>
+      <node ref="U5" pin="7"/>
+      <node ref="U5" pin="7"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="2" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="3" name="SERIAL_RX">
+      <node ref="P5" pin="5"/>
+      <node ref="U5" pin="13"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="4" name="USB_3V3OUT">
+      <node ref="U2" pin="3"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U2" pin="10"/>
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="5" name="SERIAL_TX">
+      <node ref="U2" pin="1"/>
+      <node ref="U5" pin="5"/>
+      <node ref="U5" pin="8"/>
+      <node ref="U5" pin="3"/>
+      <node ref="P5" pin="4"/>
+    </net>
+    <net code="6" name="USB_VDD">
+      <node ref="U3" pin="5"/>
+      <node ref="F1" pin="1"/>
+      <node ref="U2" pin="12"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="7" name="Net-(R3-Pad1)">
+      <node ref="R4" pin="2"/>
+      <node ref="U4" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="8" name="+12V">
+      <node ref="U1" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="TEST1" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="9" name="INPUT_A+">
+      <node ref="P4" pin="3"/>
+      <node ref="P2" pin="1"/>
+      <node ref="D2" pin="3"/>
+      <node ref="D4" pin="A"/>
+    </net>
+    <net code="10" name="Net-(D5-PadC)">
+      <node ref="R8" pin="1"/>
+      <node ref="D5" pin="C"/>
+    </net>
+    <net code="11" name="INPUT_A-">
+      <node ref="P2" pin="3"/>
+      <node ref="P4" pin="7"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="12" name="INPUT_B+">
+      <node ref="P3" pin="1"/>
+      <node ref="D5" pin="A"/>
+      <node ref="D3" pin="3"/>
+      <node ref="P4" pin="2"/>
+    </net>
+    <net code="13" name="Net-(D4-PadC)">
+      <node ref="D4" pin="C"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="14" name="USB_D-">
+      <node ref="R5" pin="1"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="15" name="USB_D+">
+      <node ref="R6" pin="1"/>
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="16" name="Net-(U2-Pad15)">
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="17" name="Net-(U2-Pad7)">
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="18" name="Net-(U2-Pad14)">
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="19" name="Net-(U2-Pad16)">
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="20" name="Net-(P5-Pad6)">
+      <node ref="P5" pin="6"/>
+    </net>
+    <net code="21" name="Net-(P5-Pad7)">
+      <node ref="P5" pin="7"/>
+    </net>
+    <net code="22" name="Net-(P5-Pad8)">
+      <node ref="P5" pin="8"/>
+    </net>
+    <net code="23" name="Net-(P5-Pad2)">
+      <node ref="P5" pin="2"/>
+    </net>
+    <net code="24" name="Net-(U2-Pad6)">
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="25" name="+5V">
+      <node ref="C7" pin="1"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="U5" pin="14"/>
+      <node ref="U5" pin="14"/>
+      <node ref="U5" pin="14"/>
+      <node ref="R4" pin="1"/>
+      <node ref="D7" pin="A"/>
+      <node ref="TEST2" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U5" pin="14"/>
+      <node ref="U5" pin="14"/>
+      <node ref="U5" pin="14"/>
+    </net>
+    <net code="26" name="Net-(D1-PadA)">
+      <node ref="P1" pin="1"/>
+      <node ref="D1" pin="A"/>
+    </net>
+    <net code="27" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="28" name="+POWER">
+      <node ref="D1" pin="C"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="P3" pin="2"/>
+      <node ref="P2" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U4" pin="3"/>
+      <node ref="C3" pin="1"/>
+      <node ref="P5" pin="3"/>
+    </net>
+    <net code="29" name="MOTOR_RX_A">
+      <node ref="FB1" pin="3"/>
+      <node ref="P4" pin="5"/>
+    </net>
+    <net code="30" name="MOTOR_RX_B">
+      <node ref="FB1" pin="4"/>
+      <node ref="P4" pin="1"/>
+    </net>
+    <net code="31" name="Net-(R6-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="32" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="33" name="Net-(F1-Pad2)">
+      <node ref="J?1" pin="1"/>
+      <node ref="F1" pin="2"/>
+    </net>
+    <net code="34" name="Net-(J?1-Pad4)">
+      <node ref="J?1" pin="4"/>
+    </net>
+    <net code="35" name="Net-(U5-Pad11)">
+      <node ref="U5" pin="12"/>
+      <node ref="U5" pin="11"/>
+    </net>
+    <net code="36" name="Net-(C9-Pad1)">
+      <node ref="Q2" pin="2"/>
+      <node ref="FB1" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="37" name="MOTOR_TX_B">
+      <node ref="R15" pin="1"/>
+      <node ref="P4" pin="8"/>
+    </net>
+    <net code="38" name="MOTOR_TX_A">
+      <node ref="P4" pin="4"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="39" name="Net-(J?1-Pad2)">
+      <node ref="U3" pin="1"/>
+      <node ref="J?1" pin="2"/>
+    </net>
+    <net code="40" name="Net-(J?1-Pad3)">
+      <node ref="U3" pin="3"/>
+      <node ref="J?1" pin="3"/>
+    </net>
+    <net code="41" name="Net-(Q1-Pad2)">
+      <node ref="R10" pin="2"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="42" name="Net-(Q1-Pad3)">
+      <node ref="R9" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="43" name="Net-(R9-Pad2)">
+      <node ref="U5" pin="10"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="44" name="Net-(R14-Pad2)">
+      <node ref="R14" pin="2"/>
+      <node ref="U5" pin="4"/>
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="45" name="Net-(D7-PadC)">
+      <node ref="D7" pin="C"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="46" name="INPUT_B-">
+      <node ref="P3" pin="3"/>
+      <node ref="P4" pin="6"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="47" name="Net-(R17-Pad2)">
+      <node ref="U5" pin="2"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="48" name="Net-(D6-Pad1)">
+      <node ref="R16" pin="2"/>
+      <node ref="U5" pin="9"/>
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="49" name="Net-(C11-Pad1)">
+      <node ref="R16" pin="1"/>
+      <node ref="D6" pin="3"/>
+      <node ref="C11" pin="1"/>
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="50" name="Net-(Q1-Pad1)">
+      <node ref="Q2" pin="3"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="R12" pin="2"/>
+    </net>
+  </nets>
+</export>
