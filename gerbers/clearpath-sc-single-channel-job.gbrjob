@@ -1,0 +1,35 @@
+G04 Gerber job file with board parameters*
+%TF.FileFunction,JobInfo*%
+%TF.Part,SinglePCB*%
+G04 Single PCB fabrication instructions*
+%TF.GenerationSoftware,KiCad,Pcbnew,no-vcs-found*%
+%TF.CreationDate,2017-10-09T11:26:26+10:30*%
+%TF.ProjectId,clearpath-sc-single-channel,636C656172706174682D73632D73696E,1.0*%
+%MOMM*%
+G04 Overall board parameters*
+%TJ.B.Size.X,74.750*%
+%TJ.B.Size.Y,49.950*%
+%TJ.B.LayerNum,2*%
+%TJ.B.Overall.Thickness,1.600*%
+%TJ.B.Legend.Present,Both*%
+%TJ.B.SolderMask.Present,Both*%
+G04 board design rules*
+%TJ.D.PadToPad.Out,0.180*%
+%TJ.D.PadToTrack.Out,0.180*%
+%TJ.D.TrackToTrack.Out,0.250*%
+%TJ.D.MinLineWidth.Out,0.250*%
+%TJ.D.TrackToRegion.Out,0.508*%
+%TJ.D.RegionToRegion.Out,0.508*%
+G04 Layer Structure*
+%TJ.L."Copper,L1,Top",Positive,clearpath-sc-single-channel-F.Cu.gbr*%
+%TJ.L."Copper,L2,Bot",Positive,clearpath-sc-single-channel-B.Cu.gbr*%
+%TJ.L."SolderPaste,Bot",Positive,clearpath-sc-single-channel-B.Paste.gbr*%
+%TJ.L."SolderPaste,Top",Positive,clearpath-sc-single-channel-F.Paste.gbr*%
+%TJ.L."Legend,Bot",Positive,clearpath-sc-single-channel-B.SilkS.gbr*%
+%TJ.L."Legend,Top",Positive,clearpath-sc-single-channel-F.SilkS.gbr*%
+%TJ.L."SolderMask,Bot",Negative,clearpath-sc-single-channel-B.Mask.gbr*%
+%TJ.L."SolderMask,Top",Negative,clearpath-sc-single-channel-F.Mask.gbr*%
+%TJ.L."Profile",Positive,clearpath-sc-single-channel-Edge.Cuts.gbr*%
+%TJ.L."AssemblyDrawing,Bot",Positive,clearpath-sc-single-channel-B.Fab.gbr*%
+%TJ.L."AssemblyDrawing,Top",Positive,clearpath-sc-single-channel-F.Fab.gbr*%
+M02*
